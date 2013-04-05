@@ -1,0 +1,5 @@
+[24-Nov-2012 05:03:51 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/W4gRatingBar/SpecialW4GRB_body.php on line 24
+[24-Nov-2012 05:04:20 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/W4gRatingBar/SpecialW4GRBMigrate.php on line 38
+[30-Nov-2012 02:00:41 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/W4gRatingBar/SpecialW4GRB_body.php on line 24
+[30-Dec-2012 02:54:28 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/W4gRatingBar/SpecialW4GRB_body.php on line 24
+[30-Dec-2012 21:43:03 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/W4gRatingBar/SpecialW4GRBMigrate.php on line 38

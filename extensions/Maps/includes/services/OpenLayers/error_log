@@ -1,0 +1,4 @@
+[23-Nov-2012 13:13:36 UTC] PHP Fatal error:  Class 'ListParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/services/OpenLayers/Maps_ParamOLLayers.php on line 16
+[23-Nov-2012 14:13:55 UTC] PHP Fatal error:  Class 'MapsMappingService' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/services/OpenLayers/Maps_OpenLayers.php on line 15
+[23-Nov-2012 16:34:02 UTC] PHP Fatal error:  Class 'CriterionMapLayer' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/services/OpenLayers/CriterionOLLayer.php on line 16
+[09-Mar-2013 13:11:38 UTC] PHP Fatal error:  Class 'CriterionMapLayer' not found in /home/openur5/public_html/extensions/Maps/includes/services/OpenLayers/CriterionOLLayer.php on line 16

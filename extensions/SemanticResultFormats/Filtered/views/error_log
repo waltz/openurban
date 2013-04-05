@@ -1,0 +1,2 @@
+[24-Nov-2012 05:58:56 UTC] PHP Fatal error:  Class 'SRF_Filtered_View' not found in /home/openur5/public_html/extensions/SemanticResultFormats/Filtered/views/SRF_FV_List.php on line 23
+[13-Dec-2012 06:53:39 UTC] PHP Fatal error:  Class 'SRF_Filtered_View' not found in /home/openur5/public_html/extensions/SemanticResultFormats/Filtered/views/SRF_FV_List.php on line 23

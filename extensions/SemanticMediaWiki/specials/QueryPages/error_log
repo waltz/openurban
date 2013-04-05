@@ -1,0 +1,6 @@
+[24-Nov-2012 06:05:59 UTC] PHP Fatal error:  Class 'QueryPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_QueryPage.php on line 17
+[24-Nov-2012 06:31:39 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_SpecialTypes.php on line 18
+[24-Nov-2012 09:20:38 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_SpecialProperties.php on line 14
+[24-Nov-2012 09:44:34 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_SpecialUnusedProperties.php on line 15
+[24-Nov-2012 09:46:30 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_SpecialWantedProperties.php on line 14
+[13-Dec-2012 07:40:23 UTC] PHP Fatal error:  Class 'QueryPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/QueryPages/SMW_QueryPage.php on line 17

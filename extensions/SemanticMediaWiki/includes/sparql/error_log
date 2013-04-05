@@ -1,0 +1,8 @@
+[24-Nov-2012 09:08:18 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19
+[24-Nov-2012 09:31:14 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabaseVirtuoso.php on line 46
+[12-Dec-2012 02:55:23 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19
+[13-Dec-2012 09:21:09 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabaseVirtuoso.php on line 46
+[21-Jan-2013 09:18:52 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19
+[09-Feb-2013 08:29:53 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19
+[02-Mar-2013 02:21:06 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19
+[04-Mar-2013 09:06:58 UTC] PHP Fatal error:  Class 'SMWSparqlDatabase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/sparql/SMW_SparqlDatabase4Store.php on line 19

@@ -1,0 +1,6 @@
+[30-Nov-2012 06:07:44 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_Geocode.php on line 15
+[30-Nov-2012 09:24:48 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_MapsDoc.php on line 15
+[30-Nov-2012 09:29:14 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_Distance.php on line 15
+[30-Nov-2012 11:04:45 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_DisplayMap.php on line 14
+[30-Nov-2012 11:42:27 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_Coordinates.php on line 15
+[30-Nov-2012 12:20:24 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/parserhooks/Maps_Geodistance.php on line 15

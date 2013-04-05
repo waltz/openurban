@@ -1,0 +1,4 @@
+[24-Nov-2012 06:01:45 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/queryprinters/SM_KMLPrinter.php on line 13
+[24-Nov-2012 06:02:10 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/queryprinters/SM_MapPrinter.php on line 13
+[13-Dec-2012 04:40:32 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/queryprinters/SM_KMLPrinter.php on line 13
+[13-Dec-2012 07:22:25 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/queryprinters/SM_MapPrinter.php on line 13

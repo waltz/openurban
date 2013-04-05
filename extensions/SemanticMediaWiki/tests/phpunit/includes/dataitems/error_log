@@ -1,0 +1,6 @@
+[12-Nov-2012 17:54:20 UTC] PHP Fatal error:  Class 'SMW\Tests\DataItemTest' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DI_BlobTest.php on line 21
+[12-Nov-2012 20:17:59 UTC] PHP Fatal error:  Class 'SMW\Tests\DIBlobTest' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DI_StringTest.php on line 21
+[12-Nov-2012 20:26:51 UTC] PHP Fatal error:  Class 'SMW\Tests\DataItemTest' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DI_BoolTest.php on line 21
+[12-Nov-2012 21:11:56 UTC] PHP Fatal error:  Class 'SMW\Tests\DataItemTest' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DI_NumberTest.php on line 21
+[12-Nov-2012 23:03:49 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DataItemTest.php on line 21
+[12-Nov-2012 23:12:52 UTC] PHP Fatal error:  Class 'SMW\Tests\DataItemTest' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/dataitems/DI_GeoCoordTest.php on line 21

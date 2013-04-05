@@ -1,0 +1,1 @@
+[30-Nov-2012 12:59:17 UTC] PHP Fatal error:  Class 'MapsGeocoder' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/geocoders/Maps_GoogleGeocoder.php on line 17
