@@ -1,0 +1,3 @@
+[24-Nov-2012 05:22:42 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/Comments-trunk-r112820.tar/Comments/CommentAction.php on line 8
+[24-Nov-2012 05:28:43 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/Comments-trunk-r112820.tar/Comments/SpecialCommentIgnoreList.php on line 8
+[08-Dec-2012 03:33:53 UTC] PHP Fatal error:  Class 'UnlistedSpecialPage' not found in /home/openur5/public_html/extensions/Comments-trunk-r112820.tar/Comments/CommentAction.php on line 8

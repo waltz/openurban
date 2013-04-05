@@ -1,0 +1,1 @@
+[30-Nov-2012 11:28:18 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/tests/phpunit/MapsDistanceParserTest.php on line 35

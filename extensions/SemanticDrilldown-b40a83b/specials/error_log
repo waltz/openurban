@@ -1,0 +1,4 @@
+[24-Nov-2012 05:21:39 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticDrilldown-b40a83b/specials/SD_Filters.php on line 8
+[24-Nov-2012 05:22:30 UTC] PHP Fatal error:  Class 'IncludableSpecialPage' not found in /home/openur5/public_html/extensions/SemanticDrilldown-b40a83b/specials/SD_BrowseData.php on line 11
+[24-Nov-2012 05:24:12 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticDrilldown-b40a83b/specials/SD_CreateFilter.php on line 9
+[13-Dec-2012 03:10:36 UTC] PHP Fatal error:  Class 'IncludableSpecialPage' not found in /home/openur5/public_html/extensions/SemanticDrilldown-b40a83b/specials/SD_BrowseData.php on line 11

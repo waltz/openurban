@@ -1,0 +1,6 @@
+[24-Nov-2012 05:56:57 UTC] PHP Fatal error:  Class 'SMWExpElement' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Exp_Data.php on line 22
+[24-Nov-2012 07:04:22 UTC] PHP Fatal error:  Class 'SMWSerializer' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_Turtle.php on line 19
+[24-Nov-2012 07:25:15 UTC] PHP Fatal error:  Class 'SMWSerializer' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_RDFXML.php on line 19
+[13-Dec-2012 06:39:14 UTC] PHP Fatal error:  Class 'SMWExpElement' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Exp_Data.php on line 22
+[13-Dec-2012 08:34:24 UTC] PHP Fatal error:  Class 'SMWSerializer' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_Turtle.php on line 19
+[13-Dec-2012 08:38:00 UTC] PHP Fatal error:  Class 'SMWSerializer' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_RDFXML.php on line 19

@@ -1,0 +1,12 @@
+[24-Nov-2012 05:50:31 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiAsk.php on line 15
+[24-Nov-2012 05:51:35 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiSMWInfo.php on line 16
+[24-Nov-2012 05:51:41 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiAskArgs.php on line 16
+[24-Nov-2012 05:52:08 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiSMWQuery.php on line 15
+[13-Dec-2012 03:53:44 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiSMWInfo.php on line 16
+[13-Dec-2012 05:12:55 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiAsk.php on line 15
+[13-Dec-2012 05:34:30 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiAskArgs.php on line 16
+[13-Dec-2012 05:48:52 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/api/ApiSMWQuery.php on line 15
+[22-Mar-2013 18:14:14 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki1.7.1/includes/api/ApiAsk.php on line 15
+[23-Mar-2013 12:28:44 UTC] PHP Fatal error:  Class 'ApiSMWQuery' not found in /home/openur5/public_html/extensions/SemanticMediaWiki1.7.1/includes/api/ApiAskArgs.php on line 16
+[23-Mar-2013 13:21:53 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki1.7.1/includes/api/ApiSMWInfo.php on line 16
+[23-Mar-2013 17:37:41 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/extensions/SemanticMediaWiki1.7.1/includes/api/ApiSMWQuery.php on line 15

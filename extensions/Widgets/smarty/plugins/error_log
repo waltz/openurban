@@ -1,0 +1,1 @@
+[24-Nov-2012 05:52:21 UTC] PHP Fatal error:  Call to a member function _get_plugin_filepath() on a non-object in /home/openur5/public_html/extensions/Widgets/smarty/plugins/modifier.date_format.php on line 11

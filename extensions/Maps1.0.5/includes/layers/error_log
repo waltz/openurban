@@ -1,0 +1,5 @@
+[24-Nov-2012 05:38:28 UTC] PHP Fatal error:  Class 'MapsLayer' not found in /home/openur5/public_html/extensions/Maps/includes/layers/Maps_KMLLayer.php on line 13
+[24-Nov-2012 05:38:38 UTC] PHP Fatal error:  Class 'MapsLayer' not found in /home/openur5/public_html/extensions/Maps/includes/layers/Maps_ImageLayer.php on line 13
+[12-Dec-2012 01:00:59 UTC] PHP Fatal error:  Class 'MapsLayer' not found in /home/openur5/public_html/extensions/Maps/includes/layers/Maps_KMLLayer.php on line 13
+[22-Mar-2013 17:12:51 UTC] PHP Fatal error:  Class 'MapsLayer' not found in /home/openur5/public_html/extensions/Maps1.0.5/includes/layers/Maps_KMLLayer.php on line 13
+[22-Mar-2013 17:46:46 UTC] PHP Fatal error:  Class 'MapsLayer' not found in /home/openur5/public_html/extensions/Maps1.0.5/includes/layers/Maps_ImageLayer.php on line 13

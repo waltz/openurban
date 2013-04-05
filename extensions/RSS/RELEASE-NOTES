@@ -1,0 +1,24 @@
+Extension page on mediawiki.org: http://www.mediawiki.org/wiki/Extension:RSS
+
+== Change Log ==
+*original by mutante 25.03.2005
+*extended by Duesentrieb 30.04.2005
+*extended by Rdb78 07.07.2005
+*extended by Mafs  10.07.2005, 24.07.2005
+*extended by Niffler 28.02.2006 
+*modified by Dzag 07.2006 
+*modified by Alxndr 09.2006
+*modified by Svanslyck 02.2008, replacing all « and » with "
+*<del>This has been updated to work better on newer (1.9) MediaWiki software, with the help of [[User:Duesentrieb]]. --[[User:CryptoQuick|CryptoQuick]] 14:26, 24 January 2007 (UTC)</del>
+**This appears not to be true; I have received numerous emails about it not working with 1.9+. I would love to help debug and fix the extension, but my host has not upgraded to PHP 5 and I'm thus stuck at MediaWiki 1.6.8, so that's as far as this is guaranteed to work properly. If anyone develops a fix, please post a link to it here! &#x2014;[[User:Alxndr|Alxndr]]&#x00a0;<sup>([[User talk:Alxndr|t]])</sup> 02:02, 16 June 2007 (UTC)
+***I just found [http://nako.us/2007/03/16/mediawiki-19-fix-for-wfstrencode/ this fork] that purports to have a fix for the new loss of wfStrEncode(). I can't test it though so can anyone else verify that it works? &#x2014;[[User:Alxndr|Alxndr]]&#x00a0;<sup>([[User talk:Alxndr|t]])</sup> 02:18, 16 June 2007 (UTC)
+*modified by --[[User:Wikinaut|Wikinaut]] 11:17, 7 May 2008 (UTC) : changed method to disable chaching; Extension is now compatible to MediaWiki 1.12
+*modified by [[User:Cmreigrut|Cmreigrut]] 19:05, 19 November 2008 (UTC): added date (if specified) to short output
+*modified by Peter Newman: 03:15, 7 October 2009 (UTC) Added htmlspecialchars escaping to the displayed strings
+*modified by [[User:K001|K001]] 15:15, 26 January 2010 (UTC): version 1.6, added support for date formats
+
+=== Version 1.7 ===
+2010-7-23
+
+* Cleaned up, included MagpieRSS library and put onto the WMF subversion repository by Jeroen De Dauw - http://www.mediawiki.org/wiki/User:Jeroen_De_Dauw
+* i18n file added by TranslateWiki.net people

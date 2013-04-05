@@ -1,0 +1,2 @@
+[24-Nov-2012 05:20:33 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/Calendar/SRF_Calendar.php on line 13
+[12-Dec-2012 01:15:21 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/Calendar/SRF_Calendar.php on line 13

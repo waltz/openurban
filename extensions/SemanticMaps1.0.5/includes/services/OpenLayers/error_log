@@ -1,0 +1,2 @@
+[24-Nov-2012 16:15:59 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/OpenLayers/SM_OpenLayersFormInput.php on line 11
+[13-Dec-2012 09:31:57 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/OpenLayers/SM_OpenLayersFormInput.php on line 11

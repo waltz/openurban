@@ -1,0 +1,9 @@
+[24-Nov-2012 05:17:03 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Bar.php on line 11
+[24-Nov-2012 05:17:23 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Line.php on line 11
+[24-Nov-2012 05:18:06 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Treemap.php on line 11
+[10-Dec-2012 05:26:21 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Bar.php on line 11
+[10-Dec-2012 07:54:14 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Bar.php on line 11
+[10-Dec-2012 10:15:31 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Line.php on line 11
+[10-Dec-2012 21:04:34 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Treemap.php on line 11
+[13-Dec-2012 01:55:02 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Line.php on line 11
+[13-Dec-2012 03:03:23 UTC] PHP Fatal error:  Class 'SMWAggregatablePrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/D3/SRF_D3Treemap.php on line 11
