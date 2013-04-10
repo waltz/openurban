@@ -4,7 +4,7 @@
 # later? $wgSitename      = "OpenUrban";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer           = "http://openurban.com";
+#$wgServer           = "http://openurban.com";
 $wgScriptPath       = "";
 $wgScriptExtension  = ".php";
 

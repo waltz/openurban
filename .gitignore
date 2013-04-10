@@ -6,3 +6,4 @@
 .vagrant
 error_log
 extensions/Widgets/compiled_templates
+.env
