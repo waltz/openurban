@@ -3,7 +3,8 @@
 [#]*[#]
 .\#*
 
+# things we don't like to see shared
 .vagrant
 error_log
-extensions/Widgets/compiled_templates
+extensions/Widgets/compiled_templates/*
 .env
