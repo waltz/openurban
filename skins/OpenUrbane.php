@@ -161,9 +161,6 @@ class OpenUrbaneTemplate extends QuickTemplate {
             	<li>
                 	<a href="/index.php?title=<?php echo translate('Map','Harita'); ?>"><?php echo translate('MAP','HARİTA'); ?></a> 
                 </li>
-                <li>
-                    <a href="/index.php?title=Special:BrowseData/<?php echo translate('English_Section','Türkçe_Bölümü'); ?>"><?php echo translate('CITY INDEX','ŞEHİR ENDEKSİ'); ?></a> 
-                </li>
                 <li>  
                     <a href="/index.php?title=<?php echo translate('Add Project','Proje Ekle'); ?>"><?php echo translate('ADD PROJECT','PROJE EKLE'); ?></a>
                 </li>
@@ -292,6 +289,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
 				<div class="pBody">
 					<ul>
 						<li><a href="/index.php?title=<?php echo translate('Donate','Bağışlamak'); ?>"><?php echo translate('Donate','Bağışlamak'); ?></a></li>
+						<li><a href="https://github.com/waltz/openurban"><?php echo translate('Github','Github'); ?></a></li>
 					</ul>
 				</div>
 			</div>
