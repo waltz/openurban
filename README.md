@@ -13,8 +13,8 @@ Because OpenUrban is a wiki people can contribute code in two ways:
 
 2) At the wiki markup level. This is where much of the front end design and development occurs. If you would like to contribute to this part of the project you can either:
 <ul>
-<li>request administrative priviledges on the wiki by sending an email to reed [at] openurban [dot] com (recommended)<li>
-<li>create a local version of OpenUrban and submit code revisions via Github's issue tracker (not recommended)<li>
+<li>request administrative priviledges on the wiki by sending an email to reed [at] openurban [dot] com (recommended)</li>
+<li>create a local version of OpenUrban and submit code revisions via Github's issue tracker (not recommended)</li>
 </ul>
 
 *the best system for modifiying code at the wiki markup level is still being worked out...
