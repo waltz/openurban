@@ -1,10 +1,9 @@
-# for emacs cruft
 *~
 [#]*[#]
 .\#*
-
-# things we don't like to see shared
-.vagrant
+.vagrant*
 error_log
-extensions/Widgets/compiled_templates/*
 .env
+Thumbs.db
+.DS_Store
+images

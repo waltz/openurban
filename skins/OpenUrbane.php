@@ -114,7 +114,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
 			<div class="clear"></div>
 			<div class="grid_8">
                             <div class="portlet logo" id="p-logo">
-                                    <a style="background-image: url(<?php  echo $wgScriptPath."/images/OU_LockUp_with_logo.png" ?>);" <?php
+                                    <a style="background-image: url(<?php  echo $wgScriptPath."/skins/openurbane/images/OU_LockUp_with_logo.png" ?>);" <?php
                                             ?>href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
                                             echo $this->tooltipAndAccesskey('p-logo') ?>></a>
                             </div>
@@ -266,7 +266,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
 	</div>
 </div>
 <div id="feedback">
-<a href="/index.php?title=<?php echo translate('Feedback','Geribesleme'); ?>"><img src="http://www.openurban.com/skins/openurbane/images/<?php echo translate('feedback_button','feedback_button_turkish'); ?>.png" /></a>
+<a href="/index.php?title=<?php echo translate('Feedback','Geribesleme'); ?>"><img src="/skins/openurbane/images/<?php echo translate('feedback_button','feedback_button_turkish'); ?>.png" /></a>
 </div>
 <div class="wideFooter">
 	<div class="container_16">
