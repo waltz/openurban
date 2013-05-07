@@ -36,9 +36,10 @@ namespace :custom do
   desc "Link the shared images folder in to the app."
   task :link_images, :roles => :app do
     run <<-CMD
-      ln -nfs #{shared_path}/system/database.yml #{release_path}/config/database.yml
+      ln -nfs #{shared_path}/images #{release_path}/images
     CMD
   end
+  after "deploy:update_code", "custom:link_images"
 
   desc "chmod the template compilation dir after deploy"
   task :chmod_template_dir, :roles => :app do
@@ -59,7 +60,7 @@ namespace :custom do
     puts "wrote env"
     puts env_file
   end
-  after 'deploy:update_code', 'generate_env'
+  after 'deploy:update_code', 'custom:generate_env'
 end
 
 # Override default tasks which are not relevant to a non-rails app.
