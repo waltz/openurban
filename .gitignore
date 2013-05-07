@@ -6,4 +6,4 @@ error_log
 .env
 Thumbs.db
 .DS_Store
-images
+./images
