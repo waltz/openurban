@@ -161,6 +161,9 @@ class OpenUrbaneTemplate extends QuickTemplate {
             	<li>
                 	<a href="/index.php?title=<?php echo translate('Map','Harita'); ?>"><?php echo translate('MAP','HARİTA'); ?></a> 
                 </li>
+                <li>
+                	<a href="/index.php?title=<?php echo translate('Cities','Şehirler'); ?>"><?php echo translate('CITIES','ŞEHIRLER'); ?></a> 
+                </li>
                 <li>  
                     <a href="/index.php?title=<?php echo translate('Add Project','Proje Ekle'); ?>"><?php echo translate('ADD PROJECT','PROJE EKLE'); ?></a>
                 </li>
