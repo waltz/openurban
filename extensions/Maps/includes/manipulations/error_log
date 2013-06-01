@@ -1,5 +1,0 @@
-[30-Nov-2012 11:33:03 UTC] PHP Fatal error:  Class 'ItemParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/manipulations/Maps_ParamZoom.php on line 15
-[30-Nov-2012 12:15:46 UTC] PHP Fatal error:  Class 'ItemParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/manipulations/Maps_ParamFile.php on line 15
-[01-Dec-2012 11:47:50 UTC] PHP Fatal error:  Class 'MapsCommonParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/manipulations/Maps_ParamImageOverlay.php on line 2
-[01-Dec-2012 21:42:33 UTC] PHP Fatal error:  Class 'ItemParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/manipulations/Maps_CommonParameterManipulation.php on line 10
-[21-Dec-2012 04:04:58 UTC] PHP Fatal error:  Class 'MapsCommonParameterManipulation' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/manipulations/Maps_ParamLine.php on line 2

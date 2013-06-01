@@ -1,4 +1,0 @@
-[24-Nov-2012 05:04:46 UTC] PHP Fatal error:  Class 'SMWQueryResult' not found in /home/openur5/public_html/extensions/SemanticCompoundQueries/SCQ_QueryResult.php on line 12
-[24-Nov-2012 05:04:56 UTC] PHP Fatal error:  Class 'SMWQueryProcessor' not found in /home/openur5/public_html/extensions/SemanticCompoundQueries/SCQ_QueryProcessor.php on line 11
-[09-Feb-2013 23:34:59 UTC] PHP Fatal error:  Class 'SMWQueryResult' not found in /home/openur5/public_html/extensions/SemanticCompoundQueries3.2/SCQ_QueryResult.php on line 12
-[10-Feb-2013 01:24:35 UTC] PHP Fatal error:  Class 'SMWQueryProcessor' not found in /home/openur5/public_html/extensions/SemanticCompoundQueries3.2/SCQ_QueryProcessor.php on line 11

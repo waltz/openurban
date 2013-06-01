@@ -1,4 +1,0 @@
-[24-Nov-2012 06:03:09 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/extensions/Validator/includes/parserHooks/Validator_Describe.php on line 15
-[24-Nov-2012 06:07:32 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/extensions/Validator/includes/parserHooks/Validator_ListErrors.php on line 13
-[13-Dec-2012 07:33:12 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/extensions/Validator/includes/parserHooks/Validator_Describe.php on line 15
-[13-Dec-2012 07:51:11 UTC] PHP Fatal error:  Class 'ParserHook' not found in /home/openur5/public_html/extensions/Validator/includes/parserHooks/Validator_ListErrors.php on line 13

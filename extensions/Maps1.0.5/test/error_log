@@ -1,6 +1,0 @@
-[24-Nov-2012 05:16:35 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps/test/MapsDistanceParserTest.php on line 12
-[24-Nov-2012 05:17:13 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps/test/MapsCoordinateParserTest.php on line 12
-[10-Dec-2012 00:06:23 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps/test/MapsDistanceParserTest.php on line 12
-[10-Dec-2012 06:58:01 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps/test/MapsCoordinateParserTest.php on line 12
-[26-Feb-2013 10:23:35 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps1.0.5/test/MapsDistanceParserTest.php on line 12
-[27-Feb-2013 15:30:06 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/extensions/Maps1.0.5/test/MapsCoordinateParserTest.php on line 12

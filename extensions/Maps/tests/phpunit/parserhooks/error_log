@@ -1,1 +1,0 @@
-[29-Nov-2012 13:32:36 UTC] PHP Fatal error:  Class 'Maps\Test\ParserHookTest' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/tests/phpunit/parserhooks/GeocodeTest.php on line 35

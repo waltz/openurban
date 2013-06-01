@@ -1,5 +1,0 @@
-[24-Nov-2012 05:52:17 UTC] PHP Fatal error:  Class 'SeleniumTestCase' not found in /home/openur5/public_html/extensions/WikiEditor/tests/selenium/WikiDialogs_Links_Setup.php on line 8
-[24-Nov-2012 05:54:08 UTC] PHP Fatal error:  Class 'SeleniumTestSuite' not found in /home/openur5/public_html/extensions/WikiEditor/tests/selenium/WikiEditorTestSuite.php on line 22
-[24-Nov-2012 06:01:36 UTC] PHP Fatal error:  Class 'SeleniumTestCase' not found in /home/openur5/public_html/extensions/WikiEditor/tests/selenium/WikiDialogs_Links_Setup.php on line 8
-[13-Dec-2012 04:11:45 UTC] PHP Fatal error:  Class 'SeleniumTestSuite' not found in /home/openur5/public_html/extensions/WikiEditor/tests/selenium/WikiEditorTestSuite.php on line 22
-[13-Dec-2012 05:52:30 UTC] PHP Fatal error:  Class 'SeleniumTestCase' not found in /home/openur5/public_html/extensions/WikiEditor/tests/selenium/WikiDialogs_Links_Setup.php on line 8

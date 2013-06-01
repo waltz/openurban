@@ -1,3 +1,0 @@
-[24-Nov-2012 08:31:28 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/SearchTriple/SMW_SpecialBrowse.php on line 18
-[24-Nov-2012 09:33:05 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/SearchTriple/SMW_SpecialPageProperty.php on line 22
-[24-Nov-2012 09:54:31 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/SearchTriple/SMW_SpecialSearchByProperty.php on line 24

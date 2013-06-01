@@ -1,4 +1,0 @@
-[30-Nov-2012 10:13:58 UTC] PHP Fatal error:  Interface 'GeoValidator' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/validators/LineValidator.php on line 15
-[30-Nov-2012 10:46:07 UTC] PHP Fatal error:  Interface 'GeoValidator' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/validators/PolygonValidator.php on line 15
-[30-Nov-2012 11:51:56 UTC] PHP Fatal error:  Interface 'GeoValidator' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/validators/LocationValidator.php on line 14
-[30-Nov-2012 12:30:00 UTC] PHP Fatal error:  Interface 'GeoValidator' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/validators/RectangleValidator.php on line 14

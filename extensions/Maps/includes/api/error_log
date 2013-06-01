@@ -1,1 +1,0 @@
-[30-Nov-2012 09:47:00 UTC] PHP Fatal error:  Class 'ApiBase' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/api/ApiGeocode.php on line 15

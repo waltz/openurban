@@ -1,4 +1,0 @@
-[24-Nov-2012 06:02:02 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/AskSpecial/SMW_QueryUI.php on line 20
-[24-Nov-2012 06:12:22 UTC] PHP Fatal error:  Class 'SpecialPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/AskSpecial/SMW_SpecialAsk.php on line 18
-[24-Nov-2012 09:42:58 UTC] PHP Fatal error:  Class 'SMWQueryUI' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/AskSpecial/SMW_SpecialQueryCreator.php on line 16
-[13-Dec-2012 09:24:46 UTC] PHP Fatal error:  Class 'SMWQueryUI' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/specials/AskSpecial/SMW_SpecialQueryCreator.php on line 16

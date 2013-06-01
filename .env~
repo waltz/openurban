@@ -1,0 +1,5 @@
+# copy this file to `.env` and fill out each of these keys to configure the app
+DB_HOST=localhost
+DB_NAME=openur5_new
+DB_USER=openur5
+DB_PASSWORD=OU12Inmotion

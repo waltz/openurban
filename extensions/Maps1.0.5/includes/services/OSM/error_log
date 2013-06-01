@@ -1,4 +1,0 @@
-[24-Nov-2012 18:43:06 UTC] PHP Fatal error:  Class 'MapsBaseMap' not found in /home/openur5/public_html/extensions/Maps/includes/services/OSM/Maps_OSMDispMap.php on line 13
-[24-Nov-2012 19:52:12 UTC] PHP Fatal error:  Class 'MapsMappingService' not found in /home/openur5/public_html/extensions/Maps/includes/services/OSM/Maps_OSM.php on line 14
-[13-Dec-2012 10:11:33 UTC] PHP Fatal error:  Class 'MapsBaseMap' not found in /home/openur5/public_html/extensions/Maps/includes/services/OSM/Maps_OSMDispMap.php on line 13
-[13-Dec-2012 10:33:04 UTC] PHP Fatal error:  Class 'MapsMappingService' not found in /home/openur5/public_html/extensions/Maps/includes/services/OSM/Maps_OSM.php on line 14
