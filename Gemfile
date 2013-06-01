@@ -55,3 +55,7 @@ gem 'factory_girl_rails', '~> 4.0'
 group :development do
   gem 'pry'
 end
+
+
+
+gem 'high_voltage'
