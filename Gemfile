@@ -44,9 +44,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-### WORKPARTY ###
-
 gem 'bootstrap-sass', '2.3.1.0'
 gem 'devise'
 gem 'protected_attributes'
