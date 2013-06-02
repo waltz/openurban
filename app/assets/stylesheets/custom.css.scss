@@ -78,7 +78,7 @@ p {
 
 footer {
   margin-top: 45px;
-  margin-bottom: 2.5em;
+  margin-bottom: .75em;
   padding-top: 13px;
   border-top: 1px solid #eaeaea;
   color: #999;
@@ -104,4 +104,11 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+
+nonprofit {
+	border-top: 1px solid #eaeaea;
+	margin-top: 5em;
+	margin-bottom: .5em;
+	color: red;
 }
