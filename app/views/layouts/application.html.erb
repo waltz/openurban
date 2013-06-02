@@ -12,12 +12,22 @@
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <%= link_to "Open Urban", '#', id: "logo" %>
+          <%= link_to "Open Urban", '#', id: "logo" %> 
           <nav>
-            <ul class="nav pull-right">
-              <li><%= link_to "Sign in", '#' %></li>
+            <ul class="nav pull-left">
+              <li><%= link_to "Map", '#' %></li>
+              <li><%= link_to "Cities", '#' %></li>
+              <li><%= link_to "Add Project", '#' %></li>
             </ul>
           </nav>
+          <div class="pull-right" style="margin-top: .35em">
+            <form class="form-search" style="margin-bottom: 0px;">
+              <div class="input-append">
+                <input type="text" class="span2 search-query">
+                <button type="submit" class="btn"><i class="icon-search"></i></button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </header>
