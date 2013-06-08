@@ -44,7 +44,7 @@ h2 {
   font-size: 1.5em;
   letter-spacing: 0px;
   margin-bottom: .4em;
-  margin-top: 1em;
+  margin-top: .5em;
   text-align: left;
   font-weight: bold;
   color: #999;
@@ -106,6 +106,15 @@ footer ul li {
   margin-left: 10px;
 }
 
-nonprofit {
-	
+/* project */
+
+.project {
+	h1{
+		text-align: left;
+		display: inline;
+	}
+	p{
+		display: inline;
+	}
+
 }
