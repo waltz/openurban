@@ -2,6 +2,7 @@
 [#]*[#]
 .\#*
 .vagrant*
+.vagrant/*
 error_log
 .env
 Thumbs.db
