@@ -23,6 +23,14 @@ textarea {
   text-align: center;
 }
 
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
 .center h1 {
   margin-bottom: 0px;
 }
@@ -117,4 +125,37 @@ footer ul li {
 		display: inline;
 	}
 
+}
+
+/* Static Pages */
+
+.StaticPages {
+	h1{
+		text-align: left;
+	}
+	h2{
+		display: inline;
+	}
+	p{
+		text-align: justify;
+	}
+	
+
+}
+
+/* Forms */
+
+.OUforms {
+	h1{
+		text-align: right;
+		margin-bottom: .25em;
+	}
+	h2{
+		text-align: right;
+		margin-bottom: .5em;
+	}
+	h4{
+		margin: 0px;
+		margin-top: .5em;
+	}
 }
