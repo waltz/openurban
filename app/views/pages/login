@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="span2 offset5" style="margin-top:2em;">
+		<form>
+		  <fieldset>
+		    <legend>Sign in</legend>
+		    <label>Email</label>
+		    <input type="text">
+		    <label>Password</label>
+		    <input type="text"><br>
+		    <button type="submit" class="btn">Sign in</button>
+		  </fieldset>
+		</form>
+	</div>
+</div>

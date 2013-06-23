@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ass<!DOCTYPE html>
 <html>
   <head>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
@@ -21,12 +21,21 @@
             </ul>
           </nav>
           <div class="pull-right" style="margin-top: .35em">
-            <form class="form-search" style="margin-bottom: 0px;">
-              <div class="input-append">
-                <input type="text" class="span2 search-query">
-                <button type="submit" class="btn"><i class="icon-search"></i></button>
-              </div>
-            </form>
+            <nav>
+              <ul class="nav pull-right">
+                <li>
+                  <form class="form-search" style="margin-bottom: 0px;">
+                    <div class="input-append">
+                      <input type="text" class="span2 search-query">
+                      <button type="submit" class="btn"><i class="icon-search"></i></button>
+                    </div>
+                  </form>
+                </li>
+                <li style="padding-left: .8em;">
+                  <button class="btn" type="button" style="padding-top: .25em; margin-top: 0em;">Sign in</button>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
