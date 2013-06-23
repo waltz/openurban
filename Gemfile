@@ -59,3 +59,4 @@ end
 
 
 gem 'high_voltage'
+gem "cancan"
