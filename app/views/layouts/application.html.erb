@@ -32,7 +32,11 @@
                   </form>
                 </li>
                 <li style="padding-left: .8em;">
-                  <button class="btn" type="button" style="padding-top: .25em; margin-top: 0em;">Sign in</button>
+                  <% if user_signed_in? %>
+                    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+                  <% else %>
+                    <%= link_to('Login', new_user_session_path)  %>  
+                  <% end %>
                 </li>
               </ul>
             </nav>
