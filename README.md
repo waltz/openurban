@@ -26,10 +26,10 @@ We rely on Vagrant, Chef and Berkshelf for managing development environments.
 
 1. Follow the [Vagrant installation instructions](http://docs.vagrantup.com/v2/installation/).
 
-2. Install [Berkshelf](http://berkshelf.com/) for managing Chef cookbooks.
+2. Install [Berkshelf](http://berkshelf.com/) for managing Chef cookbooks by running the command:
 
     `vagrant plugin install vagrant-berkshelf`
 
-3. Boot up the Vagrant instance.
+3. Boot up the Vagrant instance by using the command:
 
     `vagrant up`
