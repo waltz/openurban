@@ -24,7 +24,7 @@ Because OpenUrban is a wiki people can contribute code in two ways:
 
 We rely on Vagrant, Chef and Berkshelf for managing development environments.
 
-1. Follow the [Vagrant installation instructions](http://docs.vagrantup.com/v2/installation/).
+1. Install the most recent version of Vagrant by following the [Vagrant installation instructions](http://docs.vagrantup.com/v2/installation/).
 
 2. Install [Berkshelf](http://berkshelf.com/) for managing Chef cookbooks by running the command:
 
