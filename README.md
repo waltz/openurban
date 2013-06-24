@@ -2,7 +2,7 @@
 
 OpenUrban is a non-profit user generated web map and wiki focused on proposed and current urban development around the world. Its purpose is to help people understand how their cities and communities are changing and support their active participation in that change.
 
-The site uses <a href="http://semantic-mediawiki.org/">Semantic Mediawiki</a> and <a href="http://www.mediawiki.org/wiki/Semantic_Bundle">related extensions</a>. Any code developed for OpenUrban is integrated back into the Semantic Mediawiki code base.
+The Lebbeus branch of OpenUrban is a rebuild of the project in Ruby on Rails and Postgis. 
 
 
 ## Contribution
