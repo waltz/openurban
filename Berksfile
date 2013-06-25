@@ -1,4 +1,4 @@
 site :opscode
 
-cookbook 'apt'
-cookbook 'postgis2', github: "rogelio2k/chef-cookbook-postgis2"
+cookbook 'apt', "= 1.7.0"
+cookbook "postgresql", github: "phlipper/chef-postgresql", ref: "ff499fcff50c1113f74cc32352ebfbede93a06cc"

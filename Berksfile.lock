@@ -1,22 +1,13 @@
 {
-  "sha": "4b50457105fd563f30d427d7d7d85f02da467916",
+  "sha": "027c88b9ee066b68913771f7650eb7fe4aa841be",
   "sources": {
     "apt": {
       "locked_version": "1.7.0"
     },
-    "postgis2": {
-      "locked_version": "1.0.1",
-      "git": "git://github.com/rogelio2k/chef-cookbook-postgis2.git",
-      "ref": "89efc467f8b2d283955093aa0eba811843da6105"
-    },
     "postgresql": {
-      "locked_version": "3.0.2"
-    },
-    "build-essential": {
-      "locked_version": "1.4.0"
-    },
-    "openssl": {
-      "locked_version": "1.0.2"
+      "locked_version": "0.10.1",
+      "git": "git://github.com/phlipper/chef-postgresql.git",
+      "ref": "ff499fcff50c1113f74cc32352ebfbede93a06cc"
     }
   }
 }
