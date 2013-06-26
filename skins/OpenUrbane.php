@@ -138,14 +138,11 @@ class OpenUrbaneTemplate extends QuickTemplate {
 						?>
 					</div>
 					<div class="follow">
-						<!-- Commented out default connect links
                         <ul>
-							<li><a class="aFacebook" href="#"></a></li>
-							<li><a class="aTwitter" href="#"></a></li>
-							<li><a class="aYoutube" href="#"></a></li>
-							<li><a class="aMail" href="#"></a></li>
+							<li><a class="aFacebook" href="http://www.facebook.com/OpenUrban"></a></li>
+							<li><a class="aTwitter" href="http://www.twitter.com/Open_Urban/"></a></li>
+							<!--<li><a class="aMail" href="#"></a></li>-->
 						</ul>
-                        -->
 					</div>
 				</div>
 			</div>
