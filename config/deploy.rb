@@ -2,35 +2,25 @@
 require "dotenv"
 Dotenv.load
 
+# enable multiple stage support
+set :stages, %w(production staging)
+set :default_stage, "staging"
+require 'capistrano/ext/multistage'
+
+set(:server_host) { ENV[stage.to_s.upcase + "_HOST"] }
+
 # default_run_options[:pty] = true
 set :application, "OpenUrban"
 set :repository,  "https://github.com/waltz/openurban.git"
 set :user, "deploybot"
 set :ssh_options, { :forward_agent => true }
 set :use_sudo, false
-set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+set :scm, :git
 set :branch, "master"
 set :deploy_via, :remote_cache
-set :deploy_to, "/var/www/openurban-staging"
-role :web, ENV["SERVER_HOST"]                          # Your HTTP server, Apache/etc
-role :app, ENV["SERVER_HOST"]                           # This may be the same as your `Web` server
-role :db,  ENV["SERVER_HOST"], :primary => true # This is where Rails migrations will run
-
-# if you want to clean up old releases on each deploy uncomment this:
-# after "deploy:restart", "deploy:cleanup"
-
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
-
-# If you are using Passenger mod_rails uncomment this:
-# namespace :deploy do
-#   task :start do ; end
-#   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
-#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-#   end
-# end
+role (:web)                       { server_host }
+role (:app)                       { server_host }
+role (:db) { [server_host, {:primary => true}] }
 
 namespace :custom do
   desc "Link the shared images folder in to the app."
@@ -43,24 +33,28 @@ namespace :custom do
 
   desc "chmod the template compilation dir after deploy"
   task :chmod_template_dir, :roles => :app do
-    run "chgrp www-data #{deploy_to}/#{current_dir}"
+    dir = "#{release_path}/extensions/Widgets/compiled_templates"
+    puts "permissions for #{dir}"
+    run "chgrp www-data #{dir}"
   end
-  # after "deploy:update_code", "chmod_template_dir"
+  after "deploy:update_code", "custom:chmod_template_dir"
 
-  desc 'Generate a config .env file in the shared path'
-  task :generate_env, :roles => :app do
-    env_file = ""
-    env_file += "DB_HOST=localhost\n"
-    env_file += "DB_NAME=#{ENV['SERVER_DB_NAME']}\n"
-    env_file += "DB_USER=#{ENV["SERVER_DB_USER"]}\n"
-    env_file += "DB_PASSWORD=#{ENV["SERVER_DB_PASSWORD"]}"
+  desc 'Write a config .env file in the shared path'
+  task :write_env, :roles => :app do
+    config_stage = stage.upcase.to_s
+    env_file = <<foo
+DB_HOST=#{ENV[config_stage + "_DB_HOST"]}
+DB_NAME=#{ENV[config_stage + "_DB_NAME"]}
+DB_USER=#{ENV[config_stage + "_DB_USER"]}
+DB_PASSWORD=#{ENV[config_stage + "_DB_PASSWORD"]}
+foo
 
     # run "mkdir -p #{shared_path}/config"
     put env_file, "#{latest_release}/.env"
-    puts "wrote env"
+    puts "Wrote new environment settings."
     puts env_file
   end
-  after 'deploy:update_code', 'custom:generate_env'
+  after 'deploy:update_code', 'custom:write_env'
 end
 
 # Override default tasks which are not relevant to a non-rails app.
