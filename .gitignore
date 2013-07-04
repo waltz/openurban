@@ -7,3 +7,5 @@ error_log
 Thumbs.db
 .DS_Store
 ./images
+tmp
+log
