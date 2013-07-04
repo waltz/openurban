@@ -114,7 +114,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
 			<div class="clear"></div>
 			<div class="grid_8">
                             <div class="portlet logo" id="p-logo">
-                                    <a style="background-image: url(<?php  echo $wgScriptPath."/skins/openurbane/images/OU_LockUp_with_logo.png" ?>);" <?php
+                                    <a style="background-image: url(<?php  echo $wgScriptPath."<?php echo translate('/skins/openurbane/images/OU_LockUp_with_logo.png','/skins/openurbane/images/acikkent_logo.png'); ?>" ?>);" <?php
                                             ?>href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
                                             echo $this->tooltipAndAccesskey('p-logo') ?>></a>
                             </div>
@@ -141,7 +141,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
                         <ul>
 							<li><a class="aFacebook" href="<?php echo translate('http://www.facebook.com/OpenUrban','http://www.facebook.com/acikkentforum?fref=ts'); ?>"></a></li>
 							<li><a class="aTwitter" href="<?php echo translate('http://www.twitter.com/Open_Urban/','http://www.twitter.com/acikkent/'); ?>"></a></li>
-
+							
 							<!--<li><a class="aMail" href="#"></a></li>-->
 						</ul>
 					</div>
