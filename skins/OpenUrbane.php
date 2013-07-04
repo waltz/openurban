@@ -139,8 +139,9 @@ class OpenUrbaneTemplate extends QuickTemplate {
 					</div>
 					<div class="follow">
                         <ul>
-							<li><a class="aFacebook" href="http://www.facebook.com/OpenUrban"></a></li>
-							<li><a class="aTwitter" href="http://www.twitter.com/Open_Urban/"></a></li>
+							<li><a class="aFacebook" href="<?php echo translate('http://www.facebook.com/OpenUrban','http://www.facebook.com/acikkentforum?fref=ts'); ?>"></a></li>
+							<li><a class="aTwitter" href="<?php echo translate('http://www.twitter.com/Open_Urban/','http://www.twitter.com/acikkent/'); ?>"></a></li>
+
 							<!--<li><a class="aMail" href="#"></a></li>-->
 						</ul>
 					</div>
