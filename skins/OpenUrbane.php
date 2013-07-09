@@ -137,14 +137,6 @@ class OpenUrbaneTemplate extends QuickTemplate {
 							}
 						?>
 					</div>
-					<div class="follow">
-                        <ul>
-							<li><a class="aFacebook" href="<?php echo translate('http://www.facebook.com/OpenUrban','http://www.facebook.com/acikkentforum?fref=ts'); ?>"></a></li>
-							<li><a class="aTwitter" href="<?php echo translate('http://www.twitter.com/Open_Urban/','http://www.twitter.com/acikkent/'); ?>"></a></li>
-							
-							<!--<li><a class="aMail" href="#"></a></li>-->
-						</ul>
-					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -154,19 +146,29 @@ class OpenUrbaneTemplate extends QuickTemplate {
 </div>
 <div class="wideMainmenu">
 	<div class="container_16">
-		<div id="p-navigation">
-        	<ul>
-            	<li>
-                	<a href="/index.php?title=<?php echo translate('Map','Harita'); ?>"><?php echo translate('MAP','HARİTA'); ?></a> 
-                </li>
-                <li>
-                	<a href="/index.php?title=<?php echo translate('Cities','Şehirler'); ?>"><?php echo translate('CITIES','ŞEHIRLER'); ?></a> 
-                </li>
-                <li>  
-                    <a href="/index.php?title=<?php echo translate('Add Project','Proje Ekle'); ?>"><?php echo translate('ADD PROJECT','PROJE EKLE'); ?></a>
-                </li>
-            </ul>
-        </div>
+		<div class="grid_8 alpha">
+			<div id="p-navigation">
+	        	<ul>
+	            	<li>
+	                	<a href="/index.php?title=<?php echo translate('Map','Harita'); ?>"><?php echo translate('MAP','HARİTA'); ?></a> 
+	                </li>
+	                <li>
+	                	<a href="/index.php?title=<?php echo translate('Cities','Şehirler'); ?>"><?php echo translate('CITIES','ŞEHIRLER'); ?></a> 
+	                </li>
+	                <li>  
+	                    <a href="/index.php?title=<?php echo translate('Add Project','Proje Ekle'); ?>"><?php echo translate('ADD PROJECT','PROJE EKLE'); ?></a>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	    <div class="grid_8">
+	        <div class="follow" style="text-align:right;">
+	            <ul>
+					<li><a class="aFacebook" href="<?php echo translate('http://www.facebook.com/OpenUrban','http://www.facebook.com/acikkentforum?fref=ts'); ?>"></a></li>
+					<li><a class="aTwitter" href="<?php echo translate('http://www.twitter.com/Open_Urban/','http://www.twitter.com/acikkent/'); ?>"></a></li>
+				</ul>
+			</div>
+		</div>
     </div>
 		<?php
 			$sidebar = $this->data['sidebar'];
