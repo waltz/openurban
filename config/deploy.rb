@@ -41,7 +41,7 @@ namespace :custom do
 
   desc 'Write a config .env file in the shared path'
   task :write_env, :roles => :app do
-    config_stage = stage.upcase.to_s
+    config_stage = stage.to_s.upcase
     env_file = <<foo
 DB_HOST=#{ENV[config_stage + "_DB_HOST"]}
 DB_NAME=#{ENV[config_stage + "_DB_NAME"]}
