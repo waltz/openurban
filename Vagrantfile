@@ -31,5 +31,5 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.network :forwarded_port, guest: 5432, host: 5432 # Postgres
-  config.vm.network :forwarded_port, guest: 80,   host: 3000 # Web
+  config.vm.network :forwarded_port, guest: 80,   host: 8080 # Web
 end
