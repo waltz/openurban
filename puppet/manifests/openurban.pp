@@ -33,3 +33,11 @@ mysql::db { 'openurban-mediawiki':
   host     => '10.0.%.%',
   grant    => ['all'],
 }
+
+database_user { 'openurban@localhost':
+  password_hash => mysql_password('openurbanuser')
+} 
+
+database_grant { 'openurban@localhost/openurban-mediawiki':
+  privileges => ['all']
+}
