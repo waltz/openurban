@@ -7,6 +7,6 @@ development:
   pool: 5
   host: localhost
   username: openurban
-  password: dingbat$$$
+  password: dingbat
   su_username: openurban_su
-  su_password: dingbat$$$_su
+  su_password: dingbat_su

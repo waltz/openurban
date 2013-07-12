@@ -24,4 +24,4 @@ pickle-email-*.html
 .#*
 
 # Vagrant
-.vagrant/*
+.vagrant
