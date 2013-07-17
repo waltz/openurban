@@ -225,6 +225,9 @@ require_once( "$IP/extensions/UserMerge/UserMerge.php" );
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
 #$wgGroupPermissions['sysop']['userrights']  = true;
 
+// setup the google analytics code
+$ga_tracking_id = $_ENV["GA_TRACKING_ID"];
+
 $wgUseAjax = true; # category tree extension
 require_once("$IP/extensions/CategoryTree/CategoryTree.php");
 $wgEnableMWSuggest = true;
