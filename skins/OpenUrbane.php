@@ -108,18 +108,15 @@ class OpenUrbaneTemplate extends QuickTemplate {
 		</div>
 		<div class="header container_16">
 			<div class="clear"></div>
-			<div class="topFirst grid_16">
-			
-			</div>
+			<div class="topFirst grid_16"></div>
 			<div class="clear"></div>
 			<div class="grid_8">
-                            <div class="portlet logo" id="p-logo">
-                                    <a style="background-image: url(<?php  echo $wgScriptPath."<?php echo translate('/skins/openurbane/images/OU_LockUp_with_logo.png','/skins/openurbane/images/acikkent_logo.png'); ?>" ?>);" <?php
-                                            ?>href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
-                                            echo $this->tooltipAndAccesskey('p-logo') ?>></a>
-                            </div>
-                            <script type="<?php $this->text('jsmimetype') ?>"> if (window.isMSIE55) fixalpha(); </script>
-				<!--div class="logo"></div-->
+               <div class="portlet logo" id="p-logo">
+                  <a href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>">
+                     <img src="<?php echo translate('/skins/openurbane/images/OU_LockUp_with_logo.png','/skins/openurbane/images/acikkent_logo.png'); ?>" alt="OpenUrban Logo" />
+                  </a>
+               </div>
+               <script type="<?php $this->text('jsmimetype') ?>"> if (window.isMSIE55) fixalpha(); </script>
 			</div>
 			<div class="grid_8">
 				<div class="headerRight">
