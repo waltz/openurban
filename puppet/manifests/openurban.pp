@@ -1,20 +1,43 @@
 # get openurban running
 
 include stdlib
-include apache
+#include apache
 
-class { 'apache::mod::php': }
+# php
+
+include php::cli
+include php::mod_php5
+
+php::ini { '/etc/php.ini':
+  display_errors => 'On',
+  memory_limit   => '256M',
+}
+
+# class { 'php::mod_php5': }
+
+# class { 'php::mod_php5': inifile => '/etc/httpd/conf/php.ini' }
+
+# apache
+
+class { 'apache':
+  mpm_module => 'prefork'
+}
 
 apache::vhost { $fqdn :
   priority           => '20',
   port               => '80',
-  docroot            => $docroot,
-  configure_firewall => false
+  docroot            => $docroot
+  # configure_firewall => false
 }
 
-a2mod { 'rewrite':
-  ensure => present
-}
+apache::mod { 'rewrite': }
+apache::mod { 'php': }
+
+# class { 'apache::mod::php': }
+
+# a2mod { 'rewrite':
+#   ensure => present
+# }
 
 # mysql
 
