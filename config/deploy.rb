@@ -47,7 +47,7 @@ DB_HOST=#{ENV[config_stage + "_DB_HOST"]}
 DB_NAME=#{ENV[config_stage + "_DB_NAME"]}
 DB_USER=#{ENV[config_stage + "_DB_USER"]}
 DB_PASSWORD=#{ENV[config_stage + "_DB_PASSWORD"]}
-GA_TRACKING_ID=#{ENV[GA_TRACKING_ID]}
+GA_TRACKING_ID=#{ENV["GA_TRACKING_ID"]}
 foo
 
     # run "mkdir -p #{shared_path}/config"
