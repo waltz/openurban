@@ -1,19 +1,16 @@
-# OpenUrban
+# ![OpenUrban Logo](https://raw.github.com/waltz/openurban/master/skins/openurbane/images/OU_LockUp_with_logo.png "OpenUrban")
 
 OpenUrban is a non-profit user generated web map and wiki focused on proposed and current urban development around the world. Its purpose is to help people understand how their cities and communities are changing and support their active participation in that change.
 
+## Development Setup
 
+1. Download the latest version of [Vagrant](http://www.vagrantup.com/).
+2. Clone this repository into a nice, cozy place on your computer.
+3. Copy the `sample.env` file to `.env` and fill in the blanks.
+4. Run the command `vagrant up` inside the repository you just cloned.
+5. Browse to `http://localhost:8080` in your favorite browser and see your very own version of OpenUrban!
 
-### Current Status
-OpenUrban's development is in a stable beta state. 
-
-
-##Installing
-
-###Getting Started
-(needs to be filled out)
-
-###Requirements
+### Requirements
 OpenUrban is built on <a href="http://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a> (1.19.2), <a href="http://semantic-mediawiki.org/">Semantic Mediawiki</a> and <a href="http://www.mediawiki.org/wiki/Semantic_Bundle">related Semantic Mediawiki extensions</a>. The site uses a LAMP stack, currently:
 <ul>
 <li>PHP	5.3.10-1ubuntu3.6 (apache2handler)<?li>
