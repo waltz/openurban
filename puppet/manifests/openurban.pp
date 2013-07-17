@@ -29,7 +29,7 @@ include 'mysql::php'
 
 mysql::db { 'openurban-mediawiki':
   user     => 'openurban',
-  password => 'openurbandevelopment',
+  password => 'testing',
   host     => 'localhost',
   grant    => ['all'],
 }
