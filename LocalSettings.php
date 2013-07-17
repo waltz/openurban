@@ -236,7 +236,15 @@ $sdgFiltersSmallestFontSize=16;
 $sdgFiltersLargestFontSize=20;
 include_once("$IP/extensions/SemanticCompoundQueries/SemanticCompoundQueries.php");
 require_once( "$IP/extensions/MagicNoCache/MagicNoCache.php" );
-#$wgShowExceptionDetails = true;
 $smwgQDefaultLimit = 100;
 require_once ("$IP/extensions/Tabber/Tabber.php");
 require_once("$IP/extensions/HeaderTabs/HeaderTabs.php");
+
+# Show exceptions publicly.
+$wgShowExceptionDetails = false;
+
+# Configure ReCaptcha
+require_once("$IP/extensions/ConfirmEdit/ReCaptcha.php"); 
+$wgCaptchaClass        = 'ReCaptcha';
+$wgReCaptchaPublicKey  = $_ENV["RECAPTCHA_PUBLIC_KEY"];
+$wgReCaptchaPrivateKey = $_ENV["RECAPTCHA_PRIVATE_KEY"];

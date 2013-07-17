@@ -48,6 +48,8 @@ DB_NAME=#{ENV[config_stage + "_DB_NAME"]}
 DB_USER=#{ENV[config_stage + "_DB_USER"]}
 DB_PASSWORD=#{ENV[config_stage + "_DB_PASSWORD"]}
 GA_TRACKING_ID=#{ENV["GA_TRACKING_ID"]}
+RECAPTCHA_PUBLIC_KEY=#{ENV["RECAPTCHA_PUBLIC_KEY"]}
+RECAPTCHA_PRIVATE_KEY=#{ENV["RECAPTCHA_PRIVATE_KEY"]}
 foo
 
     # run "mkdir -p #{shared_path}/config"
