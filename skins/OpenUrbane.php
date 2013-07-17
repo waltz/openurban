@@ -146,7 +146,7 @@ class OpenUrbaneTemplate extends QuickTemplate {
 </div>
 <div class="wideMainmenu">
 	<div class="container_16">
-		<div class="grid_8 alpha">
+		<div class="grid_13 alpha">
 			<div id="p-navigation">
 	        	<ul>
 	            	<li>
@@ -161,8 +161,8 @@ class OpenUrbaneTemplate extends QuickTemplate {
 	            </ul>
 	        </div>
 	    </div>
-	    <div class="grid_8">
-	        <div class="follow" style="text-align:right;">
+	    <div class="grid_3">
+	        <div class="follow">
 	            <ul>
 					<li><a class="aFacebook" href="<?php echo translate('http://www.facebook.com/OpenUrban','http://www.facebook.com/acikkentforum?fref=ts'); ?>"></a></li>
 					<li><a class="aTwitter" href="<?php echo translate('http://www.twitter.com/Open_Urban/','http://www.twitter.com/acikkent/'); ?>"></a></li>
