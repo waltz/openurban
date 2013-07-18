@@ -17,7 +17,7 @@ OpenUrban is a non-profit user generated web map and wiki focused on proposed an
 
 6. Load the development database to get a starter set of information.
 
-    `$ mysql -u openurban -p testing < /var/www/openurban/development_db.sql`
+    `$ mysql --user=openurban --password=testing < /var/www/openurban/development_db.sql`
 
 7. Browse to `http://localhost:8080` in your favorite browser and see your very own version of OpenUrban!
 
