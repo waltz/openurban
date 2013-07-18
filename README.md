@@ -6,9 +6,20 @@ OpenUrban is a non-profit user generated web map and wiki focused on proposed an
 
 1. Download the latest version of [Vagrant](http://www.vagrantup.com/).
 2. Clone this repository into a nice, cozy place on your computer.
-3. Copy the `sample.env` file to `.env` and fill in the blanks.
+3. Copy the configuration file and fill it out with your favorite editor.
+
+    `$ cp sample.env .env`
+
 4. Run the command `vagrant up` inside the repository you just cloned.
-5. Browse to `http://localhost:8080` in your favorite browser and see your very own version of OpenUrban!
+5. Log in to your local OpenUrban server.
+
+    `$ vagrant ssh`
+
+6. Load the development database to get a starter set of information.
+
+    `$ mysql -u openurban -p testing < /var/www/openurban/development_db.sql`
+
+7. Browse to `http://localhost:8080` in your favorite browser and see your very own version of OpenUrban!
 
 ### Requirements
 OpenUrban is built on <a href="http://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a> (1.19.2), <a href="http://semantic-mediawiki.org/">Semantic Mediawiki</a> and <a href="http://www.mediawiki.org/wiki/Semantic_Bundle">related Semantic Mediawiki extensions</a>. The site uses a LAMP stack, currently:
