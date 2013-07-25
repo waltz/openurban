@@ -1,6 +1,8 @@
 development:
   adapter: postgis
-  encoding: unicode
+  encoding: UTF8
+  ctype: en_US.UTF-8
+  collate: en_US.UTF-8
   database: openurban_development
   schema_search_path: "public, postgis"
   postgis_extension: true
@@ -10,3 +12,4 @@ development:
   password: dingbat
   su_username: openurban_su
   su_password: dingbat_su
+  script_dir: /usr/share/postgresql/9.1/contrib/postgis-1.5

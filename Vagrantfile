@@ -1,16 +1,42 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "precise64"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-
   config.ssh.forward_agent = true
+  config.vm.synced_folder ".", "/home/vagrant/openurban"
 
   # Use Chef and Berkshelf to manage application provisioning.
   config.berkshelf.enabled = true
   config.vm.provision :chef_solo do |chef|
+    # chef.log_level = :debug
+    chef.add_recipe "apt"
+    chef.add_recipe "locale"
+    chef.add_recipe "rvm::vagrant"
+    chef.add_recipe "rvm::system"
+    chef.add_recipe "rvm::user"
     chef.add_recipe "postgresql::client"
     chef.add_recipe "postgresql::server"
     chef.add_recipe "postgresql::postgis"
+    chef.add_recipe "postgresql::libpq"
     chef.json = {
+      "locale" => {
+        "language" => "en_US.UTF-8",
+        "lc_all"   => "en_US.UTF-8",
+        "lang"     => "en_US.UTF-8"
+      },
+      "rvm" => {
+        "rubies" => [ "2.0.0-p0" ],
+        "user_installs" => [
+          {
+            "user"         => "vagrant",
+            "default_ruby" => "2.0.0-p0",
+            "rubies"       => [ "2.0.0-p0" ],
+            "global_gems"  => [
+              # { "name" => "bundler" },
+              # { "name" => "rake"    }                                
+            ]
+          }
+        ]
+      },
       "postgresql" => {
         "version" => "9.1",
         "listen_addresses" => "*",
@@ -64,5 +90,5 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.network :forwarded_port, guest: 5432, host: 5432 # Postgres
-  config.vm.network :forwarded_port, guest: 80,   host: 8080 # Web
+  config.vm.network :forwarded_port, guest: 3000,   host: 8080 # Web
 end

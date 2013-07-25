@@ -1,5 +1,5 @@
 {
-  "sha": "027c88b9ee066b68913771f7650eb7fe4aa841be",
+  "sha": "8461fe7c10a00a8d323cd2b8bc7403592489b4e3",
   "sources": {
     "apt": {
       "locked_version": "1.7.0"
@@ -8,6 +8,28 @@
       "locked_version": "0.10.1",
       "git": "git://github.com/phlipper/chef-postgresql.git",
       "ref": "ff499fcff50c1113f74cc32352ebfbede93a06cc"
+    },
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "git://github.com/fnichol/chef-rvm.git",
+      "ref": "7038fb8c518d0d7785767de215b1ae463f237973"
+    },
+    "locale": {
+      "locked_version": "0.0.2",
+      "git": "git://github.com/deepak/chef-locale.git",
+      "ref": "b79da8f2e3cfd7bec7200fdfb1fcc5eda26d2dd8"
+    },
+    "java": {
+      "locked_version": "1.11.6"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
     }
   }
 }
