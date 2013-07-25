@@ -9,24 +9,30 @@ Vagrant.configure("2") do |config|
   config.vm.provision :chef_solo do |chef|
     # chef.log_level = :debug
     chef.add_recipe "apt"
+    chef.add_recipe "locale"
+    chef.add_recipe "rvm::vagrant"
     chef.add_recipe "rvm::system"
     chef.add_recipe "rvm::user"
-    chef.add_recipe "rvm::vagrant"
     chef.add_recipe "postgresql::client"
     chef.add_recipe "postgresql::server"
     chef.add_recipe "postgresql::postgis"
     chef.add_recipe "postgresql::libpq"
     chef.json = {
+      "locale" => {
+        "language" => "en_US.UTF-8",
+        "lc_all"   => "en_US.UTF-8",
+        "lang"     => "en_US.UTF-8"
+      },
       "rvm" => {
         "rubies" => [ "2.0.0-p0" ],
         "user_installs" => [
           {
             "user"         => "vagrant",
-            "default_ruby" => "1.9.2",
+            "default_ruby" => "2.0.0-p0",
             "rubies"       => [ "2.0.0-p0" ],
             "global_gems"  => [
-              { "name" => "bundler" },
-              { "name" => "rake"    }                               
+              # { "name" => "bundler" },
+              # { "name" => "rake"    }                                
             ]
           }
         ]

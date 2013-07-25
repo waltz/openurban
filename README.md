@@ -28,8 +28,34 @@ We rely on Vagrant, Chef and Berkshelf for managing development environments.
 
 2. Install [Berkshelf](http://berkshelf.com/) for managing Chef cookbooks.
 
-    `vagrant plugin install vagrant-berkshelf`
+    `$ vagrant plugin install vagrant-berkshelf`
 
 3. Boot up the Vagrant instance.
 
-    `vagrant up`
+    `$ vagrant up`
+    
+4. Connect to your local development environment.
+
+    `$ vagrant ssh`
+    
+5. Find the code in the development machine.
+
+    `$ cd openurban`
+    
+6. Get all of your extra-special Ruby gems installed.
+
+    `$ bundle`
+    
+7. Spin up the extra-neat GIS features that the database has.
+
+    `$ rake db:gis:setup`
+    
+9. Run the database migrations to get all the right columns there.
+
+    `$ rake db:migrate`
+    
+10. Boot up the Rails web server.
+
+    `$ rails server`
+    
+11. Open up `http://localhost:8080` in your favorite web browser and enjoy!
