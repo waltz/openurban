@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap
 //= require leaflet/leaflet.js
 //= require leaflet/leaflet.draw.js
 
