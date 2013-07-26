@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<div id="map" style="height: 300px;"></div>
+
 <p>
   <strong>Title:</strong>
   <%= @project.title %>
@@ -12,3 +14,15 @@
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
+
+<script>
+  var map = L.map('map', {
+    center: [51.505, -0.09],
+    zoom: 13
+  });
+
+  L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+    attribution: 'foobar',
+    maxZoom: 20
+  }).addTo(map);
+</script>
