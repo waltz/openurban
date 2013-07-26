@@ -276,7 +276,7 @@ div.follow a {
 }
 .aFacebook {
 	display: block;
-	height: 40px;
+	height: 35px;
 	width: 55px;
 	background-image: url(images/follow/facebook.png);
 	background-repeat: no-repeat;
@@ -287,7 +287,7 @@ div.follow a:hover {
 }
 .aTwitter {
 	display: block;
-	height: 40px;
+	height: 35px;
 	width: 55px;
 	background-image: url(images/follow/twitter.png);
 	background-repeat: no-repeat;
@@ -295,7 +295,7 @@ div.follow a:hover {
 }
 .aYoutube {
 	display: block;
-	height: 40px;
+	height: 35px;
 	width: 55px;
 	background-image: url(images/follow/youtube.png);
 	background-repeat: no-repeat;
