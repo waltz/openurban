@@ -1,14 +1,45 @@
+
+<div class="project">
+	<div class="row">
+		<div class="span12" style="margin-bottom: .3em;">
+			<h1><%= @project.title %></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span9">
+			<div class="row">
+				<div class="span4">
+					<div style="border: 1px solid black; height:200px; margin-top">
+						<div id="map">map</div>
+					</div>
+				</div>
+				<div class="span5">
+					<div style="border:1px solid black; height: 200px;">
+						<div class="center">IMAGE</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span9">
+					<div style="border: 1px solid black; height: 400px; margin-top: 1em;">
+						<%= @project.body %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="span3">
+			<div style="border: 1px solid black; height:400px; padding-left: .5em;">
+				<div>
+					<h2>Skyscraper</h2>
+					<div style="">type</em> <strong>Building</strong>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @project.title %>
-</p>
 
-<p>
-  <strong>Body:</strong>
-  <%= @project.body %>
-</p>
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
