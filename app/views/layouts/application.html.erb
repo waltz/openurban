@@ -1,14 +1,124 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Openurban</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>OpenUrban</title>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <%= link_to "Open Urban", '#', id: "logo" %> 
+          <nav>
+            <ul class="nav pull-left">
+              <li><%= link_to "Map", '#' %></li>
+              <li><%= link_to "Cities", '#' %></li>
+              <li><%= link_to "Add Project", '#' %></li>
+            </ul>
+          </nav>
+          <div class="pull-right" style="margin-top: .35em">
+            <nav>
+              <ul class="nav pull-right">
+                <li>
+                  <form class="form-search" style="margin-bottom: 0px;">
+                    <div class="input-append">
+                      <input type="text" class="span2 search-query">
+                      <button type="submit" class="btn"><i class="icon-search"></i></button>
+                    </div>
+                  </form>
+                </li>
+                <li style="padding-left: .8em;">
+                  <% if user_signed_in? %>
+                    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+                  <% else %>
+                    <%= link_to('Login', new_user_session_path)  %>  
+                  <% end %>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <% if notice.present? %>
+        <p class="notice"><%= notice %></p>
+      <% end %>
+ 
+     <% if alert.present? %>
+        <p class="alert"><%= alert %></p>
+      <% end %>
+      <%= yield %>
+    </div>
+    <footer class="footer">
+      <div class="center">
+        <div class="footer_section">
+      <div class="row">
+        <div class="span2 offset2" style="text-align: left;">
+          <strong>CONNECT</strong><br>
+          <div>
+            <a href="http://www.facebook.com/OpenUrban">Facebook</a>
+          </div>
+          <div>
+            <a href="https://twitter.com/Open_Urban/">Twitter</a>
+          </div>
+          <div>
+            <a href="http://openurban.us5.list-manage1.com/subscribe?u=97e97774dbd51494c7edde31b&id=7dae8e55d3">Newsletter</a>
+          </div>
+          <div>
+            <a href="mailto:info@openurban.com">Email</a>
+          </div>      
+        </div>  
+        <div class="span2" style="text-align: left;">
+          <strong>SUPPORT</strong><br>
+          <div>
+            <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=RXBUJfKEXEjZogtD0-JPW4cK3P8TBMzc5NVN5U6z95zE5kTTMpQFrB7yAlS&dispatch=5885d80a13c0db1f8e263663d3faee8d14f86393d55a810282b64afed84968ec">Donate</a>
+          </div>
+          <div>
+            <a href="https://github.com/waltz/openurban">Github</a>
+          </div>    
+        </div>
+        <div class="span2" style="text-align: left;">
+          <strong>ABOUT</strong>
+          <div>
+            <a href="#">Team</a>
+          </div>
+          <div>
+            <a href="#">History</a>
+          </div>    
+        </div>
+        <div class="span2" style="text-align: left;">
+          <strong>HELP</strong>
+          <div>
+            <a href="#">Guidelines</a>
+          </div>
+          <div>
+            <a href="#">How To</a>
+          </div>
+          <div>
+            <a href="#">FAQ</a>
+          </div>    
+        </div>
+        <div class="span2" style="text-align: left;">
+          <strong>CC License</strong> 
+          <div>
+            <a href="#">Disclaimers</a> 
+          </div>
+          <div>
+            <a href="#">Privacy Policy</a>
+          </div>  
+        </div>
+      </div>
+      <div class="span11 offset1" style="border-top: 1px solid #eaeaea; font-size: .75em; margin-top: .5em; margin-bottom: .25em; padding-top: .25em; ">
+        OpenUrban is a non-profit registered in the state of Washington - 501(c)3 status pending
+      </div>
+    </div>
+    </div>
+    </footer>
+  </body>
 </html>

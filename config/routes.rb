@@ -1,4 +1,5 @@
 Openurban::Application.routes.draw do
+  devise_for :users
   resources :projects
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -48,4 +49,6 @@ Openurban::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  root :to => 'high_voltage/pages#show', :id => 'home'
 end
