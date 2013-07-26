@@ -17,6 +17,7 @@ rerun.txt
 pickle-email-*.html
 .project
 *.DS_Store
+extensions
 
 # Emacs
 *~
@@ -24,4 +25,4 @@ pickle-email-*.html
 .#*
 
 # Vagrant
-.vagrant/*
+.vagrant

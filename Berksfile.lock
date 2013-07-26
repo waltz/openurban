@@ -1,22 +1,35 @@
 {
-  "sha": "4b50457105fd563f30d427d7d7d85f02da467916",
+  "sha": "8461fe7c10a00a8d323cd2b8bc7403592489b4e3",
   "sources": {
     "apt": {
       "locked_version": "1.7.0"
     },
-    "postgis2": {
-      "locked_version": "1.0.1",
-      "git": "git://github.com/rogelio2k/chef-cookbook-postgis2.git",
-      "ref": "89efc467f8b2d283955093aa0eba811843da6105"
-    },
     "postgresql": {
-      "locked_version": "3.0.2"
+      "locked_version": "0.10.1",
+      "git": "git://github.com/phlipper/chef-postgresql.git",
+      "ref": "ff499fcff50c1113f74cc32352ebfbede93a06cc"
     },
-    "build-essential": {
-      "locked_version": "1.4.0"
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "git://github.com/fnichol/chef-rvm.git",
+      "ref": "7038fb8c518d0d7785767de215b1ae463f237973"
     },
-    "openssl": {
-      "locked_version": "1.0.2"
+    "locale": {
+      "locked_version": "0.0.2",
+      "git": "git://github.com/deepak/chef-locale.git",
+      "ref": "b79da8f2e3cfd7bec7200fdfb1fcc5eda26d2dd8"
+    },
+    "java": {
+      "locked_version": "1.11.6"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
     }
   }
 }
