@@ -14,4 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
-//= require_tree .
+//= require leaflet/leaflet.js
+//= require leaflet/leaflet.draw.js
+
+// manually set the icon path for leaflet
+L.Icon.Default.imagePath = "/assets/leaflet/";

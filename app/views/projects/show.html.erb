@@ -1,4 +1,3 @@
-
 <div class="project">
 	<div class="row">
 		<div class="span12" style="margin-bottom: .3em;">
@@ -9,9 +8,7 @@
 		<div class="span9">
 			<div class="row">
 				<div class="span4">
-					<div style="border: 1px solid black; height:200px; margin-top">
-						<div id="map">map</div>
-					</div>
+					<div style="border: 1px solid black; height:200px; margin-top" id="map"></div>
 				</div>
 				<div class="span5">
 					<div style="border:1px solid black; height: 200px;">
@@ -37,9 +34,18 @@
 		</div>
 	</div>	
 </div>
-<p id="notice"><%= notice %></p>
-
-
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
+
+<script>
+  var map = L.map('map', {
+    center: [51.505, -0.09],
+    zoom: 13
+  });
+
+  L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+    attribution: 'foobar',
+    maxZoom: 20
+  }).addTo(map);
+</script>

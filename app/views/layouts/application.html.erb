@@ -13,12 +13,13 @@
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <%= link_to "Open Urban", '/pages/home.html.erb', id: "logo" %> 
+          <%= link_to "Open Urban", root_path, id: "logo" %> 
           <nav>
             <ul class="nav pull-left">
               <li><%= link_to "Map", '#' %></li>
               <li><%= link_to "Cities", '#' %></li>
-              <li><%= link_to "Add Project", '/projects/new' %></li>
+              <li><%= link_to "Projects", projects_path %></li>
+              <li><%= link_to "Add Project", new_project_path %></li>
             </ul>
           </nav>
           <div class="pull-right" style="margin-top: .35em">
