@@ -31,6 +31,23 @@
 					<div style="height:300px;" id="map"></div>
 				</div>
 			</div>
+			<div class="row social">
+				<div class="span1">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="Open_Urban">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+				<div class="span1">
+					<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+				</div>
+			</div>
 			<div class="row">
 				<div class="span9">
 					<div class="content">
@@ -38,6 +55,7 @@
 					</div>
 				</div>
 			</div>
+			
 		</div>
 		<div class="span3">
 			<div style="min-height:200px; padding-left: .5em;">
@@ -64,3 +82,6 @@
     maxZoom: 20
   }).addTo(map);
 </script>
+
+<!-- FB like embed -->
+
