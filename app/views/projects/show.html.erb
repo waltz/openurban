@@ -1,7 +1,9 @@
 <div class="project">
 	<div class="row">
 		<div class="span12" style="margin-bottom: .3em;">
-			<h1><%= @project.title %></h1>
+			<h1><%= @project.title %></h1>&nbsp;&nbsp;&nbsp;&nbsp;
+			<%= link_to 'Edit', edit_project_path(@project) %> |
+			<%= link_to 'Back', projects_path %>
 		</div>
 	</div>
 	<div class="row">
@@ -32,11 +34,14 @@
 				</div>
 			</div>
 			<div class="row social">
-				<div class="span1">
+				<div class="span5">
+					<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>
+				</div>
+				<div class="span1 right">
 					<a href="https://twitter.com/share" class="twitter-share-button" data-via="Open_Urban">Tweet</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</div>
-				<div class="span1">
+				<div class="span1 right">
 					<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
 					<div id="fb-root"></div>
 					<script>(function(d, s, id) {
@@ -47,6 +52,7 @@
 					  fjs.parentNode.insertBefore(js, fjs);
 					}(document, 'script', 'facebook-jssdk'));</script>
 				</div>
+				
 			</div>
 			<div class="row">
 				<div class="span9">
@@ -55,21 +61,16 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 		<div class="span3">
 			<div style="min-height:200px; padding-left: .5em;">
 				<div>
-					<h1><span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span></h1>
 					<div class="data"><em>type</em> <strong>Building</strong></div>
 				</div>
 			</div>
 		</div>
 	</div>	
 </div>
-
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
 
 <script>
   var map = L.map('map', {
@@ -82,6 +83,3 @@
     maxZoom: 20
   }).addTo(map);
 </script>
-
-<!-- FB like embed -->
-
