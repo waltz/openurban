@@ -1,6 +1,8 @@
 <div class="OUforms">
 	<div class="row">
 		<div class="span5">
+			<br>
+			<br>
 			<h2>Login</h2>
 		</div>
 	</div>
@@ -18,7 +20,7 @@
 			    <h4><%= f.label :password %></h4>
 			</div>
 			<div class="span5">
-				<h4><%= f.email_field :password %></h4>
+				<h4><%= f.password_field :password %></h4>
 			</div>
 		</div>
 		<div class="row">
@@ -38,4 +40,16 @@
 			</div>
 		</div>
 	<% end %>
+	<br>
+	<br>
+	<div class="row">
+		<div class="span3 offset1 right">
+		    <h4>Don't have an account?</h4>
+		</div>
+		<div class="span5" style="margin-top: .7em;">
+			<%= link_to('Join OpenUrban', new_user_registration_path, class: "btn btn-large") %>
+		</div>
+	</div>
+	<br>
+	
 </div>

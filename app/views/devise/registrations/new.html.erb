@@ -1,18 +1,50 @@
-<h2>Sign up</h2>
-
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
-
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
-
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
-
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
-
-  <div><%= f.submit "Sign up" %></div>
-<% end %>
-
-<%= render :partial => "devise/shared/links" %>
+<div class="OUforms">
+	<div class="row">
+		<div class="span3 offset3">
+			<br>
+			<br>
+			<h2>Sign up</h2>
+		</div>
+	</div>
+	<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+		<div class="row">
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :email %></h4>
+			</div>
+			<div class="span5">
+				<h4><%= f.email_field :email %></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :password %></h4>
+			</div>
+			<div class="span5">
+				<h4><%= f.text_field :password %></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :password_confirmation %></h4>
+			</div>
+			<div class="span4">
+				<h4><%= f.password_field :password_confirmation %></h4>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="span3 offset4 left">
+			    <%= f.submit "Sign up" %>
+			</div>
+		</div>
+	<% end %>
+	<br>
+	<br>
+	<div class="row">
+		<div class="span3 offset4">
+			<%= render :partial => "devise/shared/links" %>
+		</div>
+	</div>
+	<br>
+	
+</div>
