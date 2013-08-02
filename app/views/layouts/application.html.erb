@@ -33,7 +33,8 @@
                 </li>
                 <li style="padding-left: .8em;">
                   <% if user_signed_in? %>
-                    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+                  <li><%= link_to current_user.email, edit_user_registration_path(current_user) %></li>
+                  <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>       
                   <% else %>
                     <%= link_to('Login', new_user_session_path)  %>
                   <% end %>
