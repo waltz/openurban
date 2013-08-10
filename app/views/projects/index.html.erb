@@ -5,17 +5,15 @@
     <tr>
       <th>Title</th>
       <th>Body</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th span="3">Edit</th>
     </tr>
   </thead>
 
   <tbody>
     <% @projects.each do |project| %>
       <tr>
-        <td><%= project.title %></td>
-        <td><%= project.body %></td>
+        <td><%= project.title -%></td>
+        <td><%= project.body -%></td>
         <td><%= link_to 'Show', project %></td>
         <td><%= link_to 'Edit', edit_project_path(project) %></td>
         <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>

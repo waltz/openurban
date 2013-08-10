@@ -124,10 +124,30 @@ footer ul li {
 	p{
 		display: inline;
 	}
+  .content{
+    border-right: 1px solid #D4D4D4;
+    min-height: 200px; 
+    margin-top: .5em;
+  }
+  .social{
+    margin-top: .5em;
+    margin-bottom: .25em;
+  }
+  .data{
+    margin-top: .5em;
+  }
 
 }
 
-/* Static Pages */
+/* Image Carousel */
+.carousel-indicators{
+
+}
+.carousel-control{
+  margin-top: 3.75em;
+}
+
+ /* Static Pages */
 
 .StaticPages {
 	h1{
@@ -159,3 +179,15 @@ footer ul li {
 		margin-top: .5em;
 	}
 }
+.fields{
+  h2{
+      font-size: 1.5em;
+  letter-spacing: 0px;
+  margin-bottom: .4em;
+  margin-top: .5em;
+  text-align: left;
+  font-weight: bold;
+  color: #999;
+  }
+}
+

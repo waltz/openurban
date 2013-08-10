@@ -19,6 +19,7 @@ gem "activerecord-postgis-adapter"
 gem "pg"
 
 group :development do
+  gem "annotate"
   gem "pry"
   gem "factory_girl_rails", "~> 4.0"
 end

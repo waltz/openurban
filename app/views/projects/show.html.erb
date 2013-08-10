@@ -1,53 +1,93 @@
 <div class="project">
 	<div class="row">
 		<div class="span12" style="margin-bottom: .3em;">
-			<h1>Project Title</h1> <p>edit page</p>
+			<h1><%= @project.title %></h1>&nbsp;&nbsp;&nbsp;&nbsp;
+			<%= link_to 'Edit', edit_project_path(@project) %> |
+			<%= link_to 'Back', projects_path %>
 		</div>
 	</div>
 	<div class="row">
 		<div class="span9">
 			<div class="row">
-				<div class="span4">
-					<div style="border: 1px solid black; height:200px; margin-top">
-						<div class="center">IMAGE</div>
-					</div>
-				</div>
 				<div class="span5">
-					<div style="border:1px solid black; height: 200px;">
-						<div class="center">MAP</div>
+					<div style="background: #CCCCCC; height:300px; margin-top">
+						<div id="myCarousel" class="carousel slide">
+						  <ol class="carousel-indicators">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						  </ol>
+						  <!-- Carousel items -->
+						  <div class="carousel-inner">
+						    <div class="active item">…</div>
+						    <div class="item">…</div>
+						    <div class="item">…</div>
+						  </div>
+						  <!-- Carousel nav -->
+						  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+						  <a class="carousel-control right" href="#myCarousel" data-slide="next" >&rsaquo;</a>
+						</div>
 					</div>
 				</div>
+				<div class="span4">
+					<div style="height:300px;" id="map"></div>
+				</div>
+			</div>
+			<div class="row social">
+				<div class="span5">
+					<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>
+				</div>
+				<div class="span1 right">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="Open_Urban">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+				<div class="span1 right">
+					<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+				</div>
+				
 			</div>
 			<div class="row">
 				<div class="span9">
-					<div style="border: 1px solid black; height: 400px; margin-top: 1em;">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam, ligula eu mattis pharetra, quam est semper risus, ut elementum ante justo sit amet turpis. Vestibulum facilisis ultrices iaculis. Ut eleifend, purus ut tincidunt commodo, nulla diam eleifend augue, et fermentum enim neque a ante. Nunc et nibh et nibh commodo ullamcorper vel at ipsum. Pellentesque nec neque in nibh cursus suscipit. Etiam sagittis gravida porttitor. Suspendisse ut sollicitudin turpis. Sed in sagittis massa. Mauris nec tincidunt massa. Sed enim felis, venenatis sit amet pulvinar rhoncus, tristique ac ante. Pellentesque luctus est neque, et laoreet ipsum consequat id. Nunc sagittis interdum quam ut interdum. Nam ac laoreet metus. Morbi a dui elementum, consectetur felis non, suscipit velit. Vivamus sit amet est in orci semper lobortis nec elementum ligula.
+					<div class="content">
+						<%= @project.body %>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="span3">
-			<div style="border: 1px solid black; height:400px; padding-left: .5em;">
+			<div style="min-height:200px; padding-left: .5em;">
 				<div>
-					<h2>Skyscraper</h2>
-					<div style="">type</em> <strong>Building</strong>
+					<div class="data"><strong>SAN FRANCISCO</strong> <em>city</em></div>
+					<div class="data"><strong>SOMA</strong> <em>neighborhood</em></div>
+					<hr>
+					<div class="data"><strong>Building</strong> <em>type</em></div>
+					<div class="data"><strong>Residential</strong> <em>use</em></div>
+					<div class="data"><strong>New Development</strong> <em>action</em></div>
+					<div class="data"><strong>Private</strong> <em>project management</em></div>
+					<div class="data"><strong>Design</strong> <em>status</em></div>
+					<div class="data"><strong>$1,000,000</strong> <em>budget</em></div>
+					<hr>
+					<div class="data"><em>related projects</em><br>
+						<a href="#"><strong>Test project</strong></a><br>
+						<a href="#"><strong>A project</strong></a><br>
+						<a href="#"><strong>Another project</strong></a>
+					</div>
+					<hr>
+					<div class="data"><em>media & links</em><br>
+						<a href="#"><strong>Some PDF</strong></a><br>
+						<a href="#"><strong>www.somewebsite.com</strong></a><br>
+						<a href="#"><strong>relevant information</strong></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>	
 </div>
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @project.title %>
-</p>
-
-<p>
-  <strong>Body:</strong>
-  <%= @project.body %>
-</p>
-
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
-

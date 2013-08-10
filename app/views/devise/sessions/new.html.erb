@@ -1,17 +1,55 @@
-<h2>Sign in</h2>
-<p>foobar</p>
-<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
-
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
-
-  <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
-  <% end -%>
-
-  <div><%= f.submit "Sign in" %></div>
-<% end %>
-
-<%= render :partial => "devise/shared/links" %>
+<div class="OUforms">
+	<div class="row">
+		<div class="span5">
+			<br>
+			<br>
+			<h2>Login</h2>
+		</div>
+	</div>
+	<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+		<div class="row">
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :email %></h4>
+			</div>
+			<div class="span5">
+				<h4><%= f.email_field :email %></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :password %></h4>
+			</div>
+			<div class="span5">
+				<h4><%= f.password_field :password %></h4>
+			</div>
+		</div>
+		<div class="row">
+			<% if devise_mapping.rememberable? -%>
+			<div class="span3 offset1 right">
+			    <h4><%= f.label :remember_me %></h4>
+			</div>
+			<div class="span4">
+				<h4><%= f.check_box :remember_me %></h4>
+			</div>
+			<% end -%>
+		</div>
+		<br>
+		<div class="row">
+			<div class="span3 offset4 left">
+			    <%= f.submit "Sign in" %>
+			</div>
+		</div>
+	<% end %>
+	<br>
+	<br>
+	<div class="row">
+		<div class="span3 offset1 right">
+		    <h4>Don't have an account?</h4>
+		</div>
+		<div class="span5" style="margin-top: .7em;">
+			<%= link_to('Join OpenUrban', new_user_registration_path, class: "btn btn-large") %>
+		</div>
+	</div>
+	<br>
+	
+</div>

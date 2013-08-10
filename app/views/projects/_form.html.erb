@@ -10,13 +10,14 @@
       </ul>
     </div>
   <% end %>
-
+  <h2>Title</h2>
   <div class="field">
-    <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
+  <h2>Map</h2>
+  <div id="map" style="height: 300px; width: 500px; margin-bottom: 2em;"></div>
+  <h2>Body</h2>
   <div class="field">
-    <%= f.label :body %><br>
     <%= f.text_area :body %>
   </div>
   <div class="actions">

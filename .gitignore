@@ -18,6 +18,7 @@ pickle-email-*.html
 .project
 *.DS_Store
 extensions
+skins/
 
 # Emacs
 *~
