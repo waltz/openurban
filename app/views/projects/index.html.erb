@@ -1,27 +1,15 @@
 <h1>Listing projects</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th span="3">Edit</th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title -%></td>
-        <td><%= project.body -%></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<% @projects.each do |project| %>
+  <div class="span3 project_thmbnl">
+    <div class="title_project"><%= link_to project.title, project %></div><br>
+    <%= link_to 'Edit', edit_project_path(project) %> |
+    <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <div class="image_thmbnl"><%= link_to "", project %></div>
+    <div class="details">Location</div>
+    <span class="label">TAGS</span>
+    <div class="description"><%= truncate(project.body, :length => 100) -%>&nbsp;&nbsp;<em><%= link_to "read more", project %></em></div>
+  </div>
+<% end %>  
 
-<br>
-
-<%= link_to 'New Project', new_project_path %>
