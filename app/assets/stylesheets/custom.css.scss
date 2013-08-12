@@ -81,6 +81,16 @@ p {
   color: #fff;
   text-decoration: none;
 }
+.navbar .nav > li > a
+{
+
+    color: gray;
+    &:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+}
 
 /* footer */
 
@@ -179,15 +189,3 @@ footer ul li {
 		margin-top: .5em;
 	}
 }
-.fields{
-  h2{
-      font-size: 1.5em;
-  letter-spacing: 0px;
-  margin-bottom: .4em;
-  margin-top: .5em;
-  text-align: left;
-  font-weight: bold;
-  color: #999;
-  }
-}
-
