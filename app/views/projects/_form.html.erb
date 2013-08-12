@@ -10,18 +10,135 @@
       </ul>
     </div>
   <% end %>
-  <h2>Title</h2>
-  <div class="field">
-    <%= f.text_field :title %>
-  </div>
-  <h2>Map</h2>
-  <div id="map" style="height: 300px; width: 500px; margin-bottom: 2em;"></div>
-  <h2>Body</h2>
-  <div class="field">
-    <%= f.text_area :body %>
-  </div>
+      <h2>Title</h2>
+      <div class="field">
+        <%= f.text_field :title, class: "testclass", style: "100%" %>
+      </div>
+      
+      
+      <br>
+      <h2>Project Summary</h2>
+      <div class="field">
+        <%= f.text_area :body %>
+      </div>
+      
+        <div class="row">
+          <div class="span6">
+            <form>
+              <fieldset>
+                <div class="form-group">
+                  <h2>Title</h2>
+                  <input type="text" class="form-control" placeholder="ex: Empire State Building">
+                </div>
+                <br>
+                <div class="form-group">
+                  <h2>Type</h2>
+                  <div class="row">
+                    <div class="span2">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                          Land
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Building
+                        </label>
+                      </div>
+                    </div>
+                    <div class="span2">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option2">
+                          Transportation
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <h2>Tags</h2>
+                  <input type="text" class="form-control" placeholder="ex: Highrise">
+                </div>
+                <br>
+                <div class="form-group">
+                  <h2>Upload Primary Image</h2>
+                  <input type="file" id="exampleInputFile">
+                </div>
+                <br>
+                <div class="form-group">
+                  <h2>Upload Other Images</h2>
+                  <input type="file" id="exampleInputFile">
+                </div>
+                <br>
+                <div class="form-group">
+                  <h2>Summary</h2>
+                  <textarea class="form-control" rows="5"></textarea> 
+                </div>
+                <div class="form-group">
+                  <h2>Cost</h2>
+                  <input type="text" class="form-control" placeholder="ex: $1,000,000">
+                </div>
+               
+                <div class="form-group">
+                  <h2>Status</h2>
+                  <select class="form-control">
+                    <option></option>
+                    <option>Idea</option>
+                    <option>Design/Planning</option>
+                    <option>Construction/Implementation</option>
+                    <option>Compeleted</option>
+                    <option>Abandoned</option>
+                    <option>Hold</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h2>City</h2>
+                  <input type="text" class="form-control" placeholder="ex: Istanbul">
+                </div>
+                <div class="form-group">
+                  <h2>Neighborhood</h2>
+                  <input type="text" class="form-control" placeholder="ex: Eastside">
+                </div>
+                <div class="form-group">
+                  <h2>Project Management</h2>
+                  <select class="form-control">
+                    <option></option>
+                    <option>Government Project</option>
+                    <option>Private Project</option>
+                    <option>Citizen Project</option>
+                    <option>Institutional Project</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h2>Related OpenUrban Pages</h2>
+                  <input type="text" class="form-control" placeholder="ex: Chrysler Building">
+                </div>
+                <div class="form-group">
+                  <h2>Related Websites</h2>
+                  <input type="text" class="form-control" placeholder="ex: www.sf-planning.org/‎">
+                </div>
+              </div>
+              <div class="span6">
+                <h2>Map</h2>
+                <div id="map" style="height: 500px; width: 0 auto; margin-bottom: 2em;"></div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-info" %>
   </div>
 <% end %>
 
