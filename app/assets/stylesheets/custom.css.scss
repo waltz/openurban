@@ -35,6 +35,9 @@ textarea {
   margin-bottom: 0px;
 }
 
+/* colors */
+$lightgray: #eeeeee;
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,14 +86,19 @@ p {
 }
 .navbar .nav > li > a
 {
-
-    color: gray;
-    &:hover {
-      color: black;
-      text-decoration: none;
-    }
-
+  color: gray;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
 }
+
+/* body */
+.underline{
+  border-bottom: 1px solid $lightgray;
+  padding-bottom: .25em;
+}
+
 
 /* footer */
 
