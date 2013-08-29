@@ -2,7 +2,7 @@ if(typeof(document.controllers) === "undefined") { document.controllers = {}; }
 
 document.controllers["projects"] = {
   common: function () {
-    var map = L.map('map', {
+    map = L.map('map', {
       center: [51.505, -0.09],
       zoom: 13
     });
@@ -24,6 +24,12 @@ document.controllers["projects"] = {
     var drawControl = new L.Control.Draw({
         edit: {
             featureGroup: drawnItems
+        },
+        draw: {
+          polyline: false,
+          rectangle: false,
+          circle: false,
+          marker: false
         }
     });
     map.addControl(drawControl);
@@ -31,7 +37,9 @@ document.controllers["projects"] = {
     map.on('draw:created', function (e) {
        last_drawn = e;
        console.log(e);
+       console.log(drawnItems);
        drawnItems.addLayer(e.layer);
+       // console.log(map.getCenter());
     });
   }
 }
