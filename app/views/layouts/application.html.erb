@@ -11,12 +11,11 @@
   </head>
   <body data-controller="<%= controller_name %>" data-action="<%= action_name %>">
     <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner">
+      <div class="navbar-inner" style="background: white; border: none;">
         <div class="container">
-          <%= link_to "Open Urban", root_path, id: "logo" %> 
+          <%= link_to image_tag("ou_bootstrap_logo.png", :border => 0), "/", id: "logo" %> 
           <nav>
             <ul class="nav pull-left">
-              <li><%= link_to "Map", '#' %></li>
               <li><%= link_to "Cities", '#' %></li>
               <li><%= link_to "Projects", projects_path %></li>
               <li><%= link_to "Add Project", new_project_path %></li>

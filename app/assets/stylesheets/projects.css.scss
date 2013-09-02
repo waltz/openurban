@@ -1,3 +1,44 @@
 // Place all the styles related to the projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Project Index */
+
+.project_thmbnl{
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0 0 11px -2px gray;
+	padding: .75em;
+	margin: 1.75em;
+	display: inline;
+	.title_project{
+		font-size: 1.25em;
+		font-weight: bold;
+		margin-right: 1em;
+		display: inline;
+		a{
+			color: gray;
+		}
+		a:hover {
+			color: black;
+			text-decoration:none;
+		}
+	}
+	.image_thmbnl{
+		background: purple;
+		height: 150px; 
+		margin-top: .25em;
+		width: 100%; 
+	}
+	.details{
+		font-style:italic;
+	}
+	.description{
+		margin-bottom: .75em;
+	}
+	hr{
+		margin-bottom: .25em;
+		margin-top: .25em;
+	
+	}
+}

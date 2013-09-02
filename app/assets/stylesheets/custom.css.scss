@@ -35,6 +35,9 @@ textarea {
   margin-bottom: 0px;
 }
 
+/* colors */
+$lightgray: #eeeeee;
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,6 +84,21 @@ p {
   color: #fff;
   text-decoration: none;
 }
+.navbar .nav > li > a
+{
+  color: gray;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+/* body */
+.underline{
+  border-bottom: 1px solid $lightgray;
+  padding-bottom: .25em;
+}
+
 
 /* footer */
 
@@ -179,15 +197,3 @@ footer ul li {
 		margin-top: .5em;
 	}
 }
-.fields{
-  h2{
-      font-size: 1.5em;
-  letter-spacing: 0px;
-  margin-bottom: .4em;
-  margin-top: .5em;
-  text-align: left;
-  font-weight: bold;
-  color: #999;
-  }
-}
-
