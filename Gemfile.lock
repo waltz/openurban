@@ -103,6 +103,8 @@ GEM
       activerecord (>= 3.0.3)
       arel (>= 2.0.6)
       rgeo (>= 0.3.20)
+    rgeo-geojson (0.2.3)
+      rgeo (>= 0.3.7)
     sass (3.2.9)
     sass-rails (4.0.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -154,6 +156,7 @@ DEPENDENCIES
   protected_attributes
   pry
   rails (= 4.0.0.rc1)
+  rgeo-geojson
   sass-rails (~> 4.0.0.rc1)
   therubyracer
   turbolinks

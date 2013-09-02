@@ -17,6 +17,7 @@ gem "high_voltage"
 gem "cancan"
 gem "activerecord-postgis-adapter"
 gem "pg"
+gem "rgeo-geojson"
 
 group :development do
   gem "annotate"
