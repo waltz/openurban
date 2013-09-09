@@ -1,79 +1,94 @@
 <div class="project">
 	<div class="row">
-		<div class="span12" style="margin-bottom: .3em;">
+		<div class="span12" style="background: #FCFCFC; border-bottom: 1px solid #eeeeee; margin-bottom: 1em; margin-top: .75em; padding: .75em;">
 			<h1><%= @project.title %></h1>&nbsp;&nbsp;&nbsp;&nbsp;
 			<%= link_to 'Edit', edit_project_path(@project) %> |
 			<%= link_to 'Back', projects_path %>
 		</div>
 	</div>
 	<div class="row">
-		<div class="span9">
-			<div class="row">
-				<div class="span5">
-					<img src="/assets/Transbay-Transit-Center-9.jpg" />
-					<!--
-					<div style="background: #CCCCCC; height:300px; margin-top">
-						<div id="myCarousel" class="carousel slide">
-						  <ol class="carousel-indicators">
-						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						  </ol>
-						   Carousel items
-						  <div class="carousel-inner">
-						    <div class="active item">…</div>
-						    <div class="item">…</div>
-						    <div class="item">…</div>
-						  </div>
-						   Carousel nav
-						  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						  <a class="carousel-control right" href="#myCarousel" data-slide="next" >&rsaquo;</a>
-						</div>
-					</div>
-				-->
-				</div>
-				<div class="span4">
-					<div style="height:300px;" id="map"></div>
-          <script id="geojson" type="application/json"><%= raw @project.geojson %></script>
-				</div>
-			</div>
-			<div class="row social">
-				<div class="span5">
-					<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>
-				</div>
-				<div class="span1 right">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-via="Open_Urban">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				</div>
-				<div class="span1 right">
-					<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-				</div>
-				
-			</div>
-			<div class="row">
-				<div class="span9">
-					<div class="content">
-						<%= @project.body %>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="span3">
 			<div style="min-height:200px; padding-left: .5em;">
 				<div>
-					<strong>Organizations:</strong><br>
-					<a href="">Greenblet Alliance</a><br><br>
-					<div class="data"><strong>SAN FRANCISCO</strong> <em>city</em></div>
-					<div class="data"><strong>SOMA</strong> <em>neighborhood</em></div>
-					<hr>
+					<h4>Project</h4>
+					<h4>San Francisco</h4>
+					<h4>Transbay Joint Powers Authority</h4><br>
+					<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>
+				</div>
+			</div>
+		</div>
+		<div class="span5">
+			<img src="/assets/Transbay-Transit-Center-9.jpg" />
+			<!--
+			<div style="background: #CCCCCC; height:300px; margin-top">
+				<div id="myCarousel" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+				   Carousel items
+				  <div class="carousel-inner">
+				    <div class="active item">…</div>
+				    <div class="item">…</div>
+				    <div class="item">…</div>
+				  </div>
+				   Carousel nav
+				  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				  <a class="carousel-control right" href="#myCarousel" data-slide="next" >&rsaquo;</a>
+				</div>
+			</div>
+		-->
+		</div>
+		<div class="span4">
+			<div style="height: 275px;" id="map"></div>
+	          <script id="geojson" type="application/json"><%= raw @project.geojson %></script>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span3">
+			<div class="info_box">
+				<h4 style="display: inline">Support</h4> <span style="color: blue;">(21)</span> 
+				<br><br><strong>ABCD Organization</strong>
+				<p>We support the Transbay Center because it creates a much needed transit hub and is transit oriented development... <a href="">read more</a></p>
+				<h6><a href="#">all support</a></h6>
+			</div>
+			<div class="info_box">
+				<h4 style="display: inline">Statements</h4> <span>(13)</span>
+				<br><br><strong>XYZ Organization</strong>
+				<p>The current planning process around the center fails to take into account disruption of local adjacent businesses ... <a href="">read more</a></p>
+				<h6><a href="#">all statements</a></h6>
+			</div>
+		</div>
+		<div class="span5">
+			<div class="info_box">
+				<h4>Description</h4>
+				<%= @project.body %>
+			</div>
+		</div>
+		<div class="span4">
+			<div class="info_box">
+				<h4>Index</h4>
+				<strong>Content Contributors</strong>
+				<p>Transbay Joint Powers Authority, Jane Doe, John Doe</p>
+				<hr>
+				<strong>Recent Activity</strong>
+				<p>+ EIS_Report.pdf
+				<hr>
+				<ul>
+					<li>Geo</li>
+					<li>Images</li>
+					<li>Documents</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--
+<hr>
 					<div class="data"><strong>Building</strong> <em>type</em></div>
 					<div class="data"><strong>Residential</strong> <em>use</em></div>
 					<div class="data"><strong>New Development</strong> <em>action</em></div>
@@ -92,8 +107,26 @@
 						<a href="#"><strong>www.somewebsite.com</strong></a><br>
 						<a href="#"><strong>relevant information</strong></a>
 					</div>
+-->
+<!--
+<div class="row social">
+					<div class="span5">
+						<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>&nbsp;<span class="label">TAGS</span>
+					</div>
+					<div class="span1 right">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-via="Open_Urban">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					</div>
+					<div class="span1 right">
+						<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div>	
-</div>
+-->
