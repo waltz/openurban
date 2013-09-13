@@ -51,7 +51,9 @@
      <% if alert.present? %>
         <p class="alert"><%= alert %></p>
       <% end %>
-      <%= yield %>
+      <div class="container">
+        <%= yield %>
+      </div>
     </div>
     <footer class="footer">
       <div class="center">

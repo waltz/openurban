@@ -1,14 +1,16 @@
-<h1>Listing projects</h1>
+<h1 style="text-align: left;">Listing projects</h1>
 
 
 <% @projects.each do |project| %>
-  <div class="span3 project_thmbnl">
-    <div class="title_project"><%= link_to project.title, project %></div><br>
-    <%= link_to 'Edit', edit_project_path(project) %> |
-    <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+  <div class="span3 info_box">
+    <h2 style="display: inline;"><%= link_to project.title, project %></h2>
+    <div>
+	    <%= link_to 'Edit', edit_project_path(project) %> |
+	    <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+	</div>
     <div class="image_thmbnl"><%= link_to "", project %></div>
-    <div class="details">Location</div>
-    <span class="label">TAGS</span>
+    <em>Location</em>
+    <span class="label" style="margin-bottom: .5em; margin-top: .4em;">TAGS</span>
     <div class="description"><%= truncate(project.body, :length => 100) -%>&nbsp;&nbsp;<em><%= link_to "read more", project %></em></div>
   </div>
 <% end %>  

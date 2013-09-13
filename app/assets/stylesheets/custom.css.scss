@@ -54,8 +54,13 @@ h1 {
 h2 {
   font-size: 1.5em;
   letter-spacing: 0px;
-  margin-bottom: .4em;
-  margin-top: .5em;
+  text-align: left;
+  font-weight: bold;
+  color: #999;
+}
+h3 {
+  font-size: 1.25em;
+  letter-spacing: 0px;
   text-align: left;
   font-weight: bold;
   color: #999;
@@ -101,7 +106,14 @@ p {
 .hero-unit {
         background-image: url(/assets/SanFrancisco.jpg);    
 }
-
+.info_box{
+  border-radius: 5px; 
+  -moz-border-radius: 5px;
+  box-shadow: 0 0 11px -2px gray;
+  margin-top: 1em; 
+  padding: 1em;
+  text-align: left;
+}
 
 /* footer */
 
@@ -157,11 +169,10 @@ footer ul li {
   .data{
     margin-top: .5em;
   }
-  .info_box{
-  border: #eeeeee;
-  padding: .5em;
-  }
 }
+
+/* project_index */
+
 
 /* Image Carousel */
 .carousel-indicators{
