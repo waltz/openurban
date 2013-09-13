@@ -97,6 +97,18 @@ p {
     text-decoration: none;
   }
 }
+/* sub-header */
+.sub_header{
+  background: #FCFCFC; 
+  border-bottom: 1px solid #eeeeee; 
+  margin-bottom: 1em; 
+  margin-top: .75em; 
+  padding: .75em;
+  h1{
+    display: inline;
+    text-align: left;
+  }
+}
 
 /* body */
 .underline{
@@ -113,6 +125,11 @@ p {
   margin-top: 1em; 
   padding: 1em;
   text-align: left;
+}
+
+/* Profile */
+.about{
+  text-align: justify;
 }
 
 /* footer */
@@ -147,31 +164,6 @@ footer ul li {
   margin-left: 10px;
 }
 
-/* project */
-
-.project {
-	h1{
-		text-align: left;
-		display: inline;
-	}
-	p{
-		display: inline;
-	}
-  .content{
-    border-right: 1px solid #D4D4D4;
-    min-height: 200px; 
-    margin-top: .5em;
-  }
-  .social{
-    margin-top: .5em;
-    margin-bottom: .25em;
-  }
-  .data{
-    margin-top: .5em;
-  }
-}
-
-/* project_index */
 
 
 /* Image Carousel */
