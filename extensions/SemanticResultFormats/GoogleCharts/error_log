@@ -1,2 +1,0 @@
-[24-Nov-2012 05:22:35 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/GoogleCharts/SRF_GooglePie.php on line 8
-[24-Nov-2012 05:22:40 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/GoogleCharts/SRF_GoogleBar.php on line 8

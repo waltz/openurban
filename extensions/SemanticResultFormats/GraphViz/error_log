@@ -1,2 +1,0 @@
-[24-Nov-2012 05:18:42 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/GraphViz/SRF_Graph.php on line 16
-[07-Mar-2013 03:05:46 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/GraphViz/SRF_Graph.php on line 16

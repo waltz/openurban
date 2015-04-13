@@ -1,2 +1,0 @@
-[24-Nov-2012 05:18:34 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/BibTeX/SRF_BibTeX.php on line 32
-[11-Dec-2012 02:52:41 UTC] PHP Fatal error:  Class 'SMWResultPrinter' not found in /home/openur5/public_html/extensions/SemanticResultFormats/BibTeX/SRF_BibTeX.php on line 32

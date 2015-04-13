@@ -1,9 +1,0 @@
-[27-Nov-2012 17:55:47 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/criteria/CriterionPolygon.php on line 16
-[30-Nov-2012 10:18:29 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/criteria/CriterionIsImage.php on line 14
-[30-Nov-2012 10:23:03 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/criteria/CriterionMapLayer.php on line 14
-[30-Nov-2012 12:01:32 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/criteria/CriterionIsLocation.php on line 14
-[30-Nov-2012 12:11:01 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/openurbandev.com/extensions/Maps/includes/criteria/CriterionIsDistance.php on line 14
-[09-Feb-2013 08:39:38 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/extensions/Maps/includes/criteria/CriterionIsLocation.php on line 14
-[02-Mar-2013 02:26:54 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/extensions/Maps/includes/criteria/CriterionIsLocation.php on line 14
-[04-Mar-2013 08:39:28 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/extensions/Maps/includes/criteria/CriterionIsLocation.php on line 14
-[23-Mar-2013 06:24:41 UTC] PHP Fatal error:  Class 'ItemParameterCriterion' not found in /home/openur5/public_html/extensions/Maps/includes/criteria/CriterionIsLocation.php on line 14

@@ -1,2 +1,0 @@
-[12-Nov-2012 17:17:41 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/printers/ResultPrinterTest.php on line 21
-[12-Nov-2012 21:37:40 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/printers/ResultPrintersTest.php on line 21

@@ -1,2 +1,0 @@
-[24-Nov-2012 05:53:52 UTC] PHP Fatal error:  Class 'Job' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/jobs/SMW_UpdateJob.php on line 24
-[24-Nov-2012 05:56:23 UTC] PHP Fatal error:  Class 'Job' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/jobs/SMW_RefreshJob.php on line 21

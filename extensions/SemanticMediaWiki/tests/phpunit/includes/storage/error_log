@@ -1,1 +1,0 @@
-[12-Nov-2012 18:45:17 UTC] PHP Fatal error:  Class 'MediaWikiTestCase' not found in /home/openur5/public_html/openurbandev.com/extensions/SemanticMediaWiki/tests/phpunit/includes/storage/StoreTest.php on line 22

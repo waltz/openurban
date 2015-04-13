@@ -1,2 +1,0 @@
-[24-Nov-2012 05:20:18 UTC] PHP Fatal error:  Class 'PSExtensionHandler' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/SMW_PageSchemas.php on line 13
-[28-Feb-2013 21:52:09 UTC] PHP Fatal error:  Class 'PSExtensionHandler' not found in /home/openur5/public_html/extensions/SemanticMediaWiki1.7.1/includes/SMW_PageSchemas.php on line 13

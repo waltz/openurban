@@ -1,5 +1,0 @@
-[24-Nov-2012 06:37:50 UTC] PHP Fatal error:  Class 'SMWOrderedListPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/articlepages/SMW_ConceptPage.php on line 16
-[24-Nov-2012 08:14:18 UTC] PHP Fatal error:  Class 'SMWOrderedListPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/articlepages/SMW_PropertyPage.php on line 13
-[24-Nov-2012 09:22:35 UTC] PHP Fatal error:  Class 'Article' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/articlepages/SMW_OrderedListPage.php on line 15
-[13-Dec-2012 00:45:09 UTC] PHP Fatal error:  Class 'SMWOrderedListPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/articlepages/SMW_ConceptPage.php on line 16
-[13-Dec-2012 09:03:09 UTC] PHP Fatal error:  Class 'SMWOrderedListPage' not found in /home/openur5/public_html/extensions/SemanticMediaWiki/includes/articlepages/SMW_PropertyPage.php on line 13

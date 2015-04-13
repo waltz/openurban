@@ -1,6 +1,0 @@
-[24-Nov-2012 05:18:11 UTC] PHP Fatal error:  Class 'SMWDataValue' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/SM_GeoCoordsValue.php on line 16
-[24-Nov-2012 05:21:54 UTC] PHP Fatal error:  Class 'SMWValueDescription' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/SM_AreaValueDescription.php on line 17
-[24-Nov-2012 05:24:34 UTC] PHP Fatal error:  Class 'SMWValueDescription' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/SM_GeoCoordsValueDescription.php on line 12
-[28-Feb-2013 07:11:27 UTC] PHP Fatal error:  Class 'SMWDataValue' not found in /home/openur5/public_html/extensions/SemanticMaps1.0.5/includes/SM_GeoCoordsValue.php on line 16
-[01-Mar-2013 04:49:54 UTC] PHP Fatal error:  Class 'SMWValueDescription' not found in /home/openur5/public_html/extensions/SemanticMaps1.0.5/includes/SM_AreaValueDescription.php on line 17
-[01-Mar-2013 09:44:44 UTC] PHP Fatal error:  Class 'SMWValueDescription' not found in /home/openur5/public_html/extensions/SemanticMaps1.0.5/includes/SM_GeoCoordsValueDescription.php on line 12

@@ -1,4 +1,0 @@
-[24-Nov-2012 16:12:22 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/GoogleMaps3/SM_GoogleMaps3MultiInput.php on line 13
-[24-Nov-2012 20:01:42 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/GoogleMaps3/SM_GoogleMaps3FormInput.php on line 13
-[13-Dec-2012 09:35:31 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/GoogleMaps3/SM_GoogleMaps3MultiInput.php on line 13
-[13-Dec-2012 10:40:16 UTC] PHP Fatal error:  Class 'SMFormInput' not found in /home/openur5/public_html/extensions/SemanticMaps/includes/services/GoogleMaps3/SM_GoogleMaps3FormInput.php on line 13
